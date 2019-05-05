@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Exodus_Connectors)(type KiCad)(uri ${CUSTOM_SYMBOL_DIR}/Exodus_Connectors.pretty)(options "")(descr ""))
+  (lib (name Exodus_Packages)(type KiCad)(uri ${CUSTOM_SYMBOL_DIR}/Exodus_Packages.pretty)(options "")(descr ""))
+)
