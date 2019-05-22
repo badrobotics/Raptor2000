@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Raptor2000-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -85,8 +86,8 @@ $Comp
 L Device:R_Small R34
 U 1 1 5CAC59FE
 P 4750 4050
-F 0 "R34" V 4554 4050 50  0000 C CNN
-F 1 "0" V 4645 4050 50  0000 C CNN
+F 0 "R34" V 4750 4050 50  0000 C CNN
+F 1 "0" V 4800 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 4050 50  0001 C CNN
 F 3 "~" H 4750 4050 50  0001 C CNN
 	1    4750 4050

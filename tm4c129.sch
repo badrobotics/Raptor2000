@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Raptor2000-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -128,19 +129,6 @@ Wire Wire Line
 Connection ~ 3050 4400
 Wire Wire Line
 	2950 4000 3050 4000
-$Comp
-L Exodus_Microcontrollers:TM4C1294NCPDTGOOD-WRaptor1201-A-eagle-import U1
-U 1 1 5C7FA546
-P 5450 4150
-AR Path="/5C7FA546" Ref="U1"  Part="1" 
-AR Path="/5C80AE96/5C7FA546" Ref="U1"  Part="1" 
-F 0 "U1" H 5450 7536 59  0000 C CNN
-F 1 "TM4C1294NCPDTGOOD" H 5450 7431 59  0000 C CNN
-F 2 "Package_QFP:TQFP-128_14x14mm_P0.4mm" H 5450 4150 50  0001 C CNN
-F 3 "" H 5450 4150 50  0001 C CNN
-	1    5450 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 3050 4200 3050
 Wire Wire Line
@@ -672,11 +660,11 @@ Wire Wire Line
 	3900 4950 4250 4950
 Wire Wire Line
 	3900 5050 4250 5050
-Text HLabel 9450 1300 0    50   Input ~ 0
+Text HLabel 6900 5950 2    50   Input ~ 0
 ~ENABLE
-Text HLabel 9450 1450 0    50   Input ~ 0
+Text HLabel 6900 5850 2    50   Input ~ 0
 ~INHIBIT
-Text HLabel 9450 1600 0    50   Input ~ 0
+Text HLabel 7600 3200 0    50   Input ~ 0
 ~SYSRESET
 Wire Wire Line
 	4250 6650 3900 6650
@@ -718,7 +706,7 @@ U 1 1 5CC8C880
 P 7100 1200
 F 0 "R5" H 7159 1246 50  0000 L CNN
 F 1 "R_Small" H 7159 1155 50  0000 L CNN
-F 2 "" H 7100 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 1200 50  0001 C CNN
 F 3 "~" H 7100 1200 50  0001 C CNN
 	1    7100 1200
 	1    0    0    -1  
@@ -738,4 +726,21 @@ F 3 "" H 7100 1000 50  0001 C CNN
 	1    7100 1000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Exodus_Microcontrollers:TM4C1294NCPDTGOOD-WRaptor1201-A-eagle-import U1
+U 1 1 5C7FA546
+P 5450 4150
+AR Path="/5C7FA546" Ref="U1"  Part="1" 
+AR Path="/5C80AE96/5C7FA546" Ref="U1"  Part="1" 
+F 0 "U1" H 5450 7536 59  0000 C CNN
+F 1 "TM4C1294NCPDTGOOD" H 5450 7431 59  0000 C CNN
+F 2 "Package_QFP:TQFP-128_14x14mm_P0.4mm" H 5450 4150 50  0001 C CNN
+F 3 "" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5950 6900 5950
+Wire Wire Line
+	6650 5850 6900 5850
 $EndSCHEMATC
