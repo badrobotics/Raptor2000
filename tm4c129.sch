@@ -743,4 +743,12 @@ Wire Wire Line
 	6650 5950 6900 5950
 Wire Wire Line
 	6650 5850 6900 5850
+Text Label 3550 2650 0    50   ~ 0
+VDDC
+Text Label 6850 1350 0    50   ~ 0
+RST
+Text Label 6850 1450 0    50   ~ 0
+R_BIAS
+Text Label 3300 4400 0    50   ~ 0
+OSC1_R
 $EndSCHEMATC

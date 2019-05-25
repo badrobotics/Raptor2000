@@ -276,4 +276,6 @@ F 3 "" H 1900 1300 50  0001 C CNN
 	1    1900 1300
 	1    0    0    -1  
 $EndComp
+Text Label 2400 1400 0    50   ~ 0
+PWR_LED_CATHODE
 $EndSCHEMATC
