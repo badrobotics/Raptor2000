@@ -444,4 +444,8 @@ Wire Wire Line
 	6550 2600 6700 2600
 Wire Wire Line
 	6550 2700 6700 2700
+Text HLabel 4400 3950 0    50   Input ~ 0
+USB_OTG_ID
+Text HLabel 4350 3600 0    50   Input ~ 0
+USB_OTG_VBUS
 $EndSCHEMATC

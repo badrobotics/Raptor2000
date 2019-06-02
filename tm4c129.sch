@@ -751,4 +751,23 @@ Text Label 6850 1450 0    50   ~ 0
 R_BIAS
 Text Label 3300 4400 0    50   ~ 0
 OSC1_R
+Text HLabel 3450 5250 0    50   Input ~ 0
+USB_OTG_VBUS
+$Comp
+L Device:R_Small R?
+U 1 1 5CF618A1
+P 3700 5250
+F 0 "R?" V 3896 5250 50  0000 C CNN
+F 1 "100" V 3805 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 5250 50  0001 C CNN
+F 3 "~" H 3700 5250 50  0001 C CNN
+	1    3700 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 5250 3600 5250
+Text Label 3850 5250 0    50   ~ 0
+USB_VBUS
+Wire Wire Line
+	3800 5250 4250 5250
 $EndSCHEMATC
