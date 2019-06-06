@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Raptor2000-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -478,9 +477,7 @@ Text HLabel 6900 4050 2    50   Input ~ 0
 USB_D_N
 Text HLabel 6900 4150 2    50   Input ~ 0
 USB_D_P
-Wire Wire Line
-	4250 5150 3900 5150
-Text HLabel 3900 5150 0    50   Input ~ 0
+Text HLabel 2700 5150 0    50   Input ~ 0
 USB_ID
 $Comp
 L Device:R_Small R1
@@ -751,23 +748,23 @@ Text Label 6850 1450 0    50   ~ 0
 R_BIAS
 Text Label 3300 4400 0    50   ~ 0
 OSC1_R
-Text HLabel 3450 5250 0    50   Input ~ 0
+Text HLabel 3900 5250 0    50   Input ~ 0
 USB_OTG_VBUS
+Wire Wire Line
+	3900 5250 4250 5250
 $Comp
-L Device:R_Small R?
-U 1 1 5CF618A1
-P 3700 5250
-F 0 "R?" V 3896 5250 50  0000 C CNN
-F 1 "100" V 3805 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 5250 50  0001 C CNN
-F 3 "~" H 3700 5250 50  0001 C CNN
-	1    3700 5250
-	0    -1   -1   0   
+L Device:R_Small R3
+U 1 1 5CFE983D
+P 3050 5150
+F 0 "R3" V 2854 5150 50  0000 C CNN
+F 1 "100" V 2945 5150 50  0000 C CNN
+F 2 "" H 3050 5150 50  0001 C CNN
+F 3 "~" H 3050 5150 50  0001 C CNN
+	1    3050 5150
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3450 5250 3600 5250
-Text Label 3850 5250 0    50   ~ 0
-USB_VBUS
+	3150 5150 4250 5150
 Wire Wire Line
-	3800 5250 4250 5250
+	2700 5150 2950 5150
 $EndSCHEMATC
