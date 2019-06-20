@@ -45,8 +45,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 2150 3900 2150
 Wire Wire Line
-	3900 2150 3900 1750
-Wire Wire Line
 	3200 2350 3900 2350
 Wire Wire Line
 	3900 2350 3900 2650
@@ -76,8 +74,6 @@ Text HLabel 3400 2550 2    50   Input ~ 0
 SPI_MISO
 Text HLabel 3400 2450 2    50   Input ~ 0
 SPI_MOSI
-Text HLabel 3400 2050 2    50   Input ~ 0
-SPI_SS
 Text HLabel 3400 2250 2    50   Input ~ 0
 SPI_SCLK
 Wire Wire Line
@@ -86,8 +82,6 @@ Wire Wire Line
 	3400 2550 3200 2550
 Wire Wire Line
 	3400 2250 3200 2250
-Wire Wire Line
-	3400 2050 3200 2050
 Text HLabel 3400 1950 2    50   Input ~ 0
 SPI_DAT3
 Text HLabel 3400 1850 2    50   Input ~ 0
@@ -448,4 +442,10 @@ Text HLabel 4400 3950 0    50   Input ~ 0
 USB_OTG_ID
 Text HLabel 4350 3600 0    50   Input ~ 0
 USB_OTG_VBUS
+Wire Wire Line
+	3900 1750 3900 2150
+Text HLabel 3400 2050 2    50   Input ~ 0
+SPI_SS
+Wire Wire Line
+	3200 2050 3400 2050
 $EndSCHEMATC

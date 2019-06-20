@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Raptor2000-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -286,14 +287,18 @@ Wire Wire Line
 Wire Wire Line
 	3600 2150 3600 2050
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0116
 U 1 1 5CF42D9F
 P 3600 2050
-F 0 "#PWR?" H 3600 1900 50  0001 C CNN
+F 0 "#PWR0116" H 3600 1900 50  0001 C CNN
 F 1 "+3.3V" H 3615 2223 50  0000 C CNN
 F 2 "" H 3600 2050 50  0001 C CNN
 F 3 "" H 3600 2050 50  0001 C CNN
 	1    3600 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 2850 5450 2850
+Wire Wire Line
+	4700 2550 5450 2550
 $EndSCHEMATC
