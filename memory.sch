@@ -4,11 +4,11 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 2 4
+Title "NAND Flash and RAM"
+Date "2019-06-22"
+Rev "A"
+Comp "BAD Robotics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -85,18 +85,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R34
 U 1 1 5CAC59FE
-P 4750 4050
-F 0 "R34" V 4750 4050 50  0000 C CNN
-F 1 "0" V 4800 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 4050 50  0001 C CNN
-F 3 "~" H 4750 4050 50  0001 C CNN
-	1    4750 4050
+P 4500 4050
+F 0 "R34" V 4500 4050 50  0000 C CNN
+F 1 "0" V 4550 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4500 4050 50  0001 C CNN
+F 3 "~" H 4500 4050 50  0001 C CNN
+	1    4500 4050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4850 4050 5000 4050
-Wire Wire Line
-	4650 4050 4500 4050
 $Comp
 L Exodus_Memory_RAM:IS42S16400J-xC U5
 U 1 1 5CAC8069
@@ -108,144 +104,6 @@ F 3 "http://www.issi.com/WW/pdf/42-45S16400J.pdf" H 5200 4700 50  0001 C CNN
 	1    5800 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2550 4750 2550
-Wire Wire Line
-	5000 2650 4750 2650
-Wire Wire Line
-	5000 2750 4750 2750
-Wire Wire Line
-	5000 2850 4750 2850
-Wire Wire Line
-	5000 2950 4750 2950
-Wire Wire Line
-	5000 3050 4750 3050
-Wire Wire Line
-	5000 3150 4750 3150
-Wire Wire Line
-	5000 3250 4750 3250
-Wire Wire Line
-	5000 3350 4750 3350
-Wire Wire Line
-	5000 3450 4750 3450
-Wire Wire Line
-	5000 3550 4750 3550
-Wire Wire Line
-	5000 3650 4750 3650
-Wire Wire Line
-	5000 3750 4750 3750
-Wire Wire Line
-	5000 3850 4750 3850
-Wire Wire Line
-	5000 3950 4750 3950
-Wire Wire Line
-	5000 4150 4750 4150
-Wire Wire Line
-	5000 4250 4750 4250
-Wire Wire Line
-	5000 4350 4750 4350
-Wire Wire Line
-	5000 4450 4750 4450
-Wire Wire Line
-	5000 4550 4750 4550
-Wire Wire Line
-	5000 2350 4750 2350
-Wire Wire Line
-	5000 2450 4750 2450
-Text HLabel 4750 2350 0    50   Input ~ 0
-EPIOS13
-Text HLabel 4750 2450 0    50   Input ~ 0
-EPIOS14
-Text HLabel 4750 2550 0    50   Input ~ 0
-EPIOS0
-Text HLabel 4750 2650 0    50   Input ~ 0
-EPIOS1
-Text HLabel 4750 2750 0    50   Input ~ 0
-EPIOS2
-Text HLabel 4750 2850 0    50   Input ~ 0
-EPIOS3
-Text HLabel 4750 2950 0    50   Input ~ 0
-EPIOS4
-Text HLabel 4750 3050 0    50   Input ~ 0
-EPIOS5
-Text HLabel 4750 3150 0    50   Input ~ 0
-EPIOS6
-Text HLabel 4750 3250 0    50   Input ~ 0
-EPIOS7
-Text HLabel 4750 3350 0    50   Input ~ 0
-EPIOS8
-Text HLabel 4750 3450 0    50   Input ~ 0
-EPIOS9
-Text HLabel 4750 3550 0    50   Input ~ 0
-EPIOS10
-Text HLabel 4750 3650 0    50   Input ~ 0
-EPIOS11
-Text HLabel 4750 3750 0    50   Input ~ 0
-EPIOS12
-Wire Wire Line
-	6600 2350 6850 2350
-Wire Wire Line
-	6600 2450 6850 2450
-Wire Wire Line
-	6600 2550 6850 2550
-Wire Wire Line
-	6600 2650 6850 2650
-Wire Wire Line
-	6600 2750 6850 2750
-Wire Wire Line
-	6600 2850 6850 2850
-Wire Wire Line
-	6600 2950 6850 2950
-Wire Wire Line
-	6600 3050 6850 3050
-Wire Wire Line
-	6600 3150 6850 3150
-Wire Wire Line
-	6600 3250 6850 3250
-Wire Wire Line
-	6600 3350 6850 3350
-Wire Wire Line
-	6600 3450 6850 3450
-Wire Wire Line
-	6600 3550 6850 3550
-Text HLabel 6850 2350 2    50   Input ~ 0
-EPIOS0
-Text HLabel 6850 2450 2    50   Input ~ 0
-EPIOS1
-Text HLabel 6850 2550 2    50   Input ~ 0
-EPIOS2
-Text HLabel 6850 2650 2    50   Input ~ 0
-EPIOS3
-Text HLabel 6850 2750 2    50   Input ~ 0
-EPIOS4
-Text HLabel 6850 2850 2    50   Input ~ 0
-EPIOS5
-Text HLabel 6850 2950 2    50   Input ~ 0
-EPIOS6
-Text HLabel 6850 3050 2    50   Input ~ 0
-EPIOS7
-Text HLabel 6850 3150 2    50   Input ~ 0
-EPIOS8
-Text HLabel 6850 3250 2    50   Input ~ 0
-EPIOS9
-Text HLabel 6850 3350 2    50   Input ~ 0
-EPIOS10
-Text HLabel 6850 3450 2    50   Input ~ 0
-EPIOS11
-Text HLabel 6850 3550 2    50   Input ~ 0
-EPIOS12
-Wire Wire Line
-	6600 3650 6850 3650
-Wire Wire Line
-	6600 3750 6850 3750
-Wire Wire Line
-	6600 3850 6850 3850
-Text HLabel 6850 3650 2    50   Input ~ 0
-EPIOS13
-Text HLabel 6850 3750 2    50   Input ~ 0
-EPIOS14
-Text HLabel 6850 3850 2    50   Input ~ 0
-EPIOS15
 Wire Wire Line
 	5650 5000 5850 5000
 Wire Wire Line
@@ -282,22 +140,6 @@ Wire Wire Line
 Connection ~ 5850 1750
 Wire Wire Line
 	5850 1750 6000 1750
-Text HLabel 4750 3850 0    50   Input ~ 0
-EPIOS29
-Text HLabel 4750 3950 0    50   Input ~ 0
-EPIOS30
-Text HLabel 4500 4050 0    50   Input ~ 0
-EPIOS31
-Text HLabel 4750 4150 0    50   Input ~ 0
-EPIOS16
-Text HLabel 4750 4250 0    50   Input ~ 0
-EPIOS17
-Text HLabel 4750 4350 0    50   Input ~ 0
-EPIOS28
-Text HLabel 4750 4450 0    50   Input ~ 0
-EPIOS18
-Text HLabel 4750 4550 0    50   Input ~ 0
-EPIOS19
 $Comp
 L Device:C_Small C34
 U 1 1 5CB18DA3
@@ -463,6 +305,363 @@ F 3 "" H 8650 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 1700 8650 1850
-Text Label 4850 4050 0    50   ~ 0
+Text Label 4750 4050 0    50   ~ 0
 CLK
+$Comp
+L Exodus_Peripherals:TC58CVG2S0HRAIG U3
+U 1 1 5D346BB9
+P 9900 3050
+F 0 "U3" H 9900 3565 50  0000 C CNN
+F 1 "TC58CVG2S0HRAIG" H 9900 3474 50  0000 C CNN
+F 2 "" H 9900 3000 50  0001 C CNN
+F 3 "" H 9900 3000 50  0001 C CNN
+	1    9900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 2800 10500 2800
+Wire Wire Line
+	10500 2800 10500 2650
+Wire Wire Line
+	10400 3300 10500 3300
+Wire Wire Line
+	10500 3300 10500 3450
+$Comp
+L power:GND #PWR0118
+U 1 1 5D34E798
+P 10500 3450
+F 0 "#PWR0118" H 10500 3200 50  0001 C CNN
+F 1 "GND" H 10505 3277 50  0000 C CNN
+F 2 "" H 10500 3450 50  0001 C CNN
+F 3 "" H 10500 3450 50  0001 C CNN
+	1    10500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 5D34EBD4
+P 10500 2650
+F 0 "#PWR0119" H 10500 2500 50  0001 C CNN
+F 1 "+3.3V" H 10515 2823 50  0000 C CNN
+F 2 "" H 10500 2650 50  0001 C CNN
+F 3 "" H 10500 2650 50  0001 C CNN
+	1    10500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5D351BF7
+P 10500 3050
+F 0 "C14" H 10615 3096 50  0000 L CNN
+F 1 "0.1" H 10615 3005 50  0000 L CNN
+F 2 "" H 10538 2900 50  0001 C CNN
+F 3 "~" H 10500 3050 50  0001 C CNN
+	1    10500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2900 10500 2800
+Connection ~ 10500 2800
+Wire Wire Line
+	10500 3200 10500 3300
+Connection ~ 10500 3300
+$Comp
+L Device:R_Small R4
+U 1 1 5D357E46
+P 9300 2550
+F 0 "R4" H 9359 2596 50  0000 L CNN
+F 1 "10k" H 9359 2505 50  0000 L CNN
+F 2 "" H 9300 2550 50  0001 C CNN
+F 3 "~" H 9300 2550 50  0001 C CNN
+	1    9300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2800 9300 2800
+Wire Wire Line
+	9300 2450 9300 2350
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5D35E492
+P 9300 2350
+F 0 "#PWR0120" H 9300 2200 50  0001 C CNN
+F 1 "+3.3V" H 9315 2523 50  0000 C CNN
+F 2 "" H 9300 2350 50  0001 C CNN
+F 3 "" H 9300 2350 50  0001 C CNN
+	1    9300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3100 9200 3100
+Wire Wire Line
+	9400 2900 9200 2900
+Wire Wire Line
+	9400 3000 9200 3000
+Wire Wire Line
+	9400 3300 9200 3300
+Wire Wire Line
+	9400 3200 9200 3200
+Text HLabel 9200 3100 0    50   Input ~ 0
+FLASH_DAT0
+Text HLabel 9200 2900 0    50   Input ~ 0
+FLASH_DAT1
+Text HLabel 9200 3000 0    50   Input ~ 0
+FLASH_DAT2
+Text HLabel 9200 3200 0    50   Input ~ 0
+FLASH_SCLK
+Text HLabel 9200 3300 0    50   Input ~ 0
+FLASH_DAT3
+Text HLabel 9200 2800 0    50   Input ~ 0
+~FLASH_CS
+Connection ~ 9300 2800
+Wire Wire Line
+	9300 2800 9400 2800
+Wire Bus Line
+	3850 5350 7450 5350
+Wire Wire Line
+	3950 2350 5000 2350
+Wire Wire Line
+	3950 2450 5000 2450
+Wire Wire Line
+	3950 2550 5000 2550
+Wire Wire Line
+	3950 2650 5000 2650
+Wire Wire Line
+	3950 2750 5000 2750
+Wire Wire Line
+	3950 2850 5000 2850
+Wire Wire Line
+	3950 2950 5000 2950
+Wire Wire Line
+	3950 3050 5000 3050
+Wire Wire Line
+	3950 3150 5000 3150
+Wire Wire Line
+	3950 3250 5000 3250
+Wire Wire Line
+	3950 3350 5000 3350
+Wire Wire Line
+	3950 3450 5000 3450
+Wire Wire Line
+	3950 3550 5000 3550
+Wire Wire Line
+	3950 3650 5000 3650
+Wire Wire Line
+	3950 3750 5000 3750
+Wire Wire Line
+	3950 3850 5000 3850
+Wire Wire Line
+	3950 3950 5000 3950
+Wire Wire Line
+	4600 4050 5000 4050
+Wire Wire Line
+	4400 4050 3950 4050
+Wire Wire Line
+	3950 4150 5000 4150
+Wire Wire Line
+	3950 4250 5000 4250
+Wire Wire Line
+	3950 4350 5000 4350
+Wire Wire Line
+	3950 4450 5000 4450
+Wire Wire Line
+	3950 4550 5000 4550
+Entry Wire Line
+	3850 2250 3950 2350
+Entry Wire Line
+	3850 2350 3950 2450
+Entry Wire Line
+	3850 2450 3950 2550
+Entry Wire Line
+	3850 2550 3950 2650
+Entry Wire Line
+	3850 2650 3950 2750
+Entry Wire Line
+	3850 2750 3950 2850
+Entry Wire Line
+	3850 2850 3950 2950
+Entry Wire Line
+	3850 3050 3950 3150
+Entry Wire Line
+	3850 2950 3950 3050
+Entry Wire Line
+	3850 3150 3950 3250
+Entry Wire Line
+	3850 3250 3950 3350
+Entry Wire Line
+	3850 3350 3950 3450
+Entry Wire Line
+	3850 3450 3950 3550
+Entry Wire Line
+	3850 3550 3950 3650
+Entry Wire Line
+	3850 3650 3950 3750
+Entry Wire Line
+	3850 3750 3950 3850
+Entry Wire Line
+	3850 3850 3950 3950
+Entry Wire Line
+	3850 3950 3950 4050
+Entry Wire Line
+	3850 4050 3950 4150
+Entry Wire Line
+	3850 4150 3950 4250
+Entry Wire Line
+	3850 4250 3950 4350
+Entry Wire Line
+	3850 4350 3950 4450
+Entry Wire Line
+	3850 4450 3950 4550
+Wire Bus Line
+	3850 2200 3750 2200
+Text Label 3950 2350 0    50   ~ 0
+EPIOS13
+Text Label 3950 2450 0    50   ~ 0
+EPIOS14
+Text Label 3950 2550 0    50   ~ 0
+EPIOS0
+Text Label 3950 2650 0    50   ~ 0
+EPIOS1
+Text Label 3950 2750 0    50   ~ 0
+EPIOS2
+Text Label 3950 2850 0    50   ~ 0
+EPIOS3
+Text Label 3950 2950 0    50   ~ 0
+EPIOS4
+Text Label 3950 3050 0    50   ~ 0
+EPIOS5
+Text Label 3950 3150 0    50   ~ 0
+EPIOS6
+Text Label 3950 3250 0    50   ~ 0
+EPIOS7
+Text Label 3950 3350 0    50   ~ 0
+EPIOS8
+Text Label 3950 3450 0    50   ~ 0
+EPIOS9
+Text Label 3950 3550 0    50   ~ 0
+EPIOS10
+Text Label 3950 3650 0    50   ~ 0
+EPIOS11
+Text Label 3950 3750 0    50   ~ 0
+EPIOS12
+Text Label 3950 3850 0    50   ~ 0
+EPIOS29
+Text Label 3950 3950 0    50   ~ 0
+EPIOS30
+Text Label 3950 4050 0    50   ~ 0
+EPIOS31
+Text Label 3950 4150 0    50   ~ 0
+EPIOS16
+Text Label 3950 4250 0    50   ~ 0
+EPIOS17
+Text Label 3950 4350 0    50   ~ 0
+EPIOS28
+Text Label 3950 4450 0    50   ~ 0
+EPIOS18
+Text Label 3950 4550 0    50   ~ 0
+EPIOS19
+Wire Wire Line
+	6600 2350 7350 2350
+Wire Wire Line
+	6600 2450 7350 2450
+Wire Wire Line
+	6600 2550 7350 2550
+Wire Wire Line
+	6600 2650 7350 2650
+Wire Wire Line
+	6600 2750 7350 2750
+Wire Wire Line
+	6600 2850 7350 2850
+Wire Wire Line
+	6600 2950 7350 2950
+Wire Wire Line
+	6600 3050 7350 3050
+Wire Wire Line
+	6600 3150 7350 3150
+Wire Wire Line
+	6600 3250 7350 3250
+Wire Wire Line
+	6600 3350 7350 3350
+Wire Wire Line
+	6600 3450 7350 3450
+Wire Wire Line
+	6600 3550 7350 3550
+Wire Wire Line
+	6600 3650 7350 3650
+Wire Wire Line
+	6600 3750 7350 3750
+Wire Wire Line
+	6600 3850 7350 3850
+Entry Wire Line
+	7350 2350 7450 2450
+Entry Wire Line
+	7350 2450 7450 2550
+Entry Wire Line
+	7350 2550 7450 2650
+Entry Wire Line
+	7350 2650 7450 2750
+Entry Wire Line
+	7350 2750 7450 2850
+Entry Wire Line
+	7350 2850 7450 2950
+Entry Wire Line
+	7350 2950 7450 3050
+Entry Wire Line
+	7350 3050 7450 3150
+Entry Wire Line
+	7350 3150 7450 3250
+Entry Wire Line
+	7350 3250 7450 3350
+Entry Wire Line
+	7350 3350 7450 3450
+Entry Wire Line
+	7350 3550 7450 3650
+Entry Wire Line
+	7350 3450 7450 3550
+Entry Wire Line
+	7350 3650 7450 3750
+Entry Wire Line
+	7350 3750 7450 3850
+Entry Wire Line
+	7350 3850 7450 3950
+Text Label 7050 2350 0    50   ~ 0
+EPIOS0
+Text Label 7050 2450 0    50   ~ 0
+EPIOS1
+Text Label 7050 2550 0    50   ~ 0
+EPIOS2
+Text Label 7050 2650 0    50   ~ 0
+EPIOS3
+Text Label 7050 2750 0    50   ~ 0
+EPIOS4
+Text Label 7050 2850 0    50   ~ 0
+EPIOS5
+Text Label 7050 2950 0    50   ~ 0
+EPIOS6
+Text Label 7050 3050 0    50   ~ 0
+EPIOS7
+Text Label 7050 3150 0    50   ~ 0
+EPIOS8
+Text Label 7050 3250 0    50   ~ 0
+EPIOS9
+Text Label 7000 3350 0    50   ~ 0
+EPIOS10
+Text Label 7000 3450 0    50   ~ 0
+EPIOS11
+Text Label 7000 3550 0    50   ~ 0
+EPIOS12
+Text Label 7000 3650 0    50   ~ 0
+EPIOS13
+Text Label 7000 3750 0    50   ~ 0
+EPIOS14
+Text Label 7000 3850 0    50   ~ 0
+EPIOS15
+Text HLabel 3750 2200 0    50   Input ~ 0
+EPIOS[0..31]
+Wire Wire Line
+	9300 2650 9300 2800
+Wire Bus Line
+	7450 2300 7450 5350
+Wire Bus Line
+	3850 2200 3850 5350
 $EndSCHEMATC
