@@ -1428,10 +1428,6 @@ Wire Wire Line
 	5150 2250 5900 2250
 Wire Wire Line
 	5150 2350 5900 2350
-Wire Bus Line
-	1700 4850 1700 7600
-Wire Bus Line
-	6000 2200 6000 7600
 Entry Wire Line
 	5900 2250 6000 2350
 Entry Wire Line
@@ -1440,4 +1436,10 @@ Text Label 5450 2250 0    50   ~ 0
 EPI030
 Text Label 5450 2350 0    50   ~ 0
 EPI029
+Wire Bus Line
+	1700 4850 1700 7600
+Wire Bus Line
+	6000 2200 6000 7600
+Text Notes 6050 5050 0    50   ~ 0
+EPI0S31 should be configured for 12mA drive. \nThe rest of the EPI signals can be 8mA drive.
 $EndSCHEMATC
