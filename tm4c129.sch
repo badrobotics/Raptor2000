@@ -1242,14 +1242,6 @@ SSI2XDAT0
 Text HLabel 2400 6550 0    50   Input ~ 0
 SSI2XDAT1
 Wire Wire Line
-	5400 2350 5150 2350
-Wire Wire Line
-	5400 2250 5150 2250
-Text HLabel 5400 2350 2    50   Input ~ 0
-EPIOS29
-Text HLabel 5400 2250 2    50   Input ~ 0
-EPIOS30
-Wire Wire Line
 	2750 6050 2400 6050
 Wire Wire Line
 	2750 5950 2400 5950
@@ -1324,35 +1316,35 @@ Entry Wire Line
 Entry Wire Line
 	5900 6350 6000 6450
 Text Label 5400 3650 0    50   ~ 0
-EPIOS12
+EPI0S12
 Text Label 5400 3750 0    50   ~ 0
-EPIOS13
+EPI0S13
 Text Label 5400 3850 0    50   ~ 0
-EPIOS14
+EPI0S14
 Text Label 5400 3950 0    50   ~ 0
-EPIOS15
+EPI0S15
 Text Label 5400 4450 0    50   ~ 0
-EPIOS19
+EPI0S19
 Text Label 5400 4550 0    50   ~ 0
-EPIOS18
+EPI0S18
 Text Label 5400 4650 0    50   ~ 0
-EPIOS17
+EPI0S17
 Text Label 5400 4750 0    50   ~ 0
-EPIOS16
+EPI0S16
 Text Label 5400 5050 0    50   ~ 0
-EPIOS131
+EPI0S31
 Text Label 5400 5250 0    50   ~ 0
-EPIOS3
+EPI0S3
 Text Label 5400 5350 0    50   ~ 0
-EPIOS2
+EPI0S2
 Text Label 5400 5450 0    50   ~ 0
-EPIOS1
+EPI0S1
 Text Label 5400 5550 0    50   ~ 0
-EPIOS0
+EPI0S0
 Text Label 5400 6250 0    50   ~ 0
-EPIOS10
+EPI0S10
 Text Label 5400 6350 0    50   ~ 0
-EPIOS11
+EPI0S11
 Wire Bus Line
 	6000 7600 1700 7600
 Entry Wire Line
@@ -1403,25 +1395,25 @@ $EndComp
 Entry Wire Line
 	1700 5550 1800 5450
 Text Label 1950 4950 0    50   ~ 0
-EPIOS8
+EPI0S8
 Text Label 1950 6450 0    50   ~ 0
-EPIOS4
+EPI0S4
 Text Label 1950 6350 0    50   ~ 0
-EPIOS5
+EPI0S5
 Text Label 1950 6250 0    50   ~ 0
-EPIOS6
+EPI0S6
 Text Label 1950 6150 0    50   ~ 0
-EPIOS7
+EPI0S7
 Text Label 1950 5450 0    50   ~ 0
-EPIOS28
+EPI0S28
 Text Label 1950 5050 0    50   ~ 0
-EPIOS9
+EPI0S9
 Wire Bus Line
 	1700 4850 1550 4850
 Text HLabel 2400 5750 0    50   Input ~ 0
 JTAG_TCK
 Text HLabel 1550 4850 0    50   Input ~ 0
-EPIOS[0..31]
+EPI0S[0..31]
 Wire Wire Line
 	5150 1050 5900 1050
 Wire Wire Line
@@ -1432,8 +1424,20 @@ Text Label 5850 1050 2    50   ~ 0
 XOSC1
 Wire Wire Line
 	5450 1500 5450 1450
+Wire Wire Line
+	5150 2250 5900 2250
+Wire Wire Line
+	5150 2350 5900 2350
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
-	6000 3550 6000 7600
+	6000 2200 6000 7600
+Entry Wire Line
+	5900 2250 6000 2350
+Entry Wire Line
+	5900 2350 6000 2450
+Text Label 5450 2250 0    50   ~ 0
+EPI030
+Text Label 5450 2350 0    50   ~ 0
+EPI029
 $EndSCHEMATC

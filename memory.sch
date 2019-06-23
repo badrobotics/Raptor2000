@@ -515,51 +515,51 @@ Entry Wire Line
 Wire Bus Line
 	3850 2200 3750 2200
 Text Label 3950 2350 0    50   ~ 0
-EPIOS13
+EPI0S13
 Text Label 3950 2450 0    50   ~ 0
-EPIOS14
+EPI0S14
 Text Label 3950 2550 0    50   ~ 0
-EPIOS0
+EPI0S0
 Text Label 3950 2650 0    50   ~ 0
-EPIOS1
+EPI0S1
 Text Label 3950 2750 0    50   ~ 0
-EPIOS2
+EPI0S2
 Text Label 3950 2850 0    50   ~ 0
-EPIOS3
+EPI0S3
 Text Label 3950 2950 0    50   ~ 0
-EPIOS4
+EPI0S4
 Text Label 3950 3050 0    50   ~ 0
-EPIOS5
+EPI0S5
 Text Label 3950 3150 0    50   ~ 0
-EPIOS6
+EPI0S6
 Text Label 3950 3250 0    50   ~ 0
-EPIOS7
+EPI0S7
 Text Label 3950 3350 0    50   ~ 0
-EPIOS8
+EPI0S8
 Text Label 3950 3450 0    50   ~ 0
-EPIOS9
+EPI0S9
 Text Label 3950 3550 0    50   ~ 0
-EPIOS10
+EPI0S10
 Text Label 3950 3650 0    50   ~ 0
-EPIOS11
+EPI0S11
 Text Label 3950 3750 0    50   ~ 0
-EPIOS12
+EPI0S12
 Text Label 3950 3850 0    50   ~ 0
-EPIOS29
+EPI0S29
 Text Label 3950 3950 0    50   ~ 0
-EPIOS30
+EPI0S30
 Text Label 3950 4050 0    50   ~ 0
-EPIOS31
+EPI0S31
 Text Label 3950 4150 0    50   ~ 0
-EPIOS16
+EPI0S16
 Text Label 3950 4250 0    50   ~ 0
-EPIOS17
+EPI0S17
 Text Label 3950 4350 0    50   ~ 0
-EPIOS28
+EPI0S28
 Text Label 3950 4450 0    50   ~ 0
-EPIOS18
+EPI0S18
 Text Label 3950 4550 0    50   ~ 0
-EPIOS19
+EPI0S19
 Wire Wire Line
 	6600 2350 7350 2350
 Wire Wire Line
@@ -625,39 +625,39 @@ Entry Wire Line
 Entry Wire Line
 	7350 3850 7450 3950
 Text Label 7050 2350 0    50   ~ 0
-EPIOS0
+EPI0S0
 Text Label 7050 2450 0    50   ~ 0
-EPIOS1
+EPI0S1
 Text Label 7050 2550 0    50   ~ 0
-EPIOS2
+EPI0S2
 Text Label 7050 2650 0    50   ~ 0
-EPIOS3
+EPI0S3
 Text Label 7050 2750 0    50   ~ 0
-EPIOS4
+EPI0S4
 Text Label 7050 2850 0    50   ~ 0
-EPIOS5
+EPI0S5
 Text Label 7050 2950 0    50   ~ 0
-EPIOS6
+EPI0S6
 Text Label 7050 3050 0    50   ~ 0
-EPIOS7
+EPI0S7
 Text Label 7050 3150 0    50   ~ 0
-EPIOS8
+EPI0S8
 Text Label 7050 3250 0    50   ~ 0
-EPIOS9
+EPI0S9
 Text Label 7000 3350 0    50   ~ 0
-EPIOS10
+EPI0S10
 Text Label 7000 3450 0    50   ~ 0
-EPIOS11
+EPI0S11
 Text Label 7000 3550 0    50   ~ 0
-EPIOS12
+EPI0S12
 Text Label 7000 3650 0    50   ~ 0
-EPIOS13
+EPI0S13
 Text Label 7000 3750 0    50   ~ 0
-EPIOS14
+EPI0S14
 Text Label 7000 3850 0    50   ~ 0
-EPIOS15
+EPI0S15
 Text HLabel 3750 2200 0    50   Input ~ 0
-EPIOS[0..31]
+EPI0S[0..31]
 Wire Wire Line
 	9300 2650 9300 2800
 Wire Bus Line
