@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "TM4C129"
 Date "2019-06-22"
 Rev "A"
@@ -298,7 +298,7 @@ L Device:Crystal_GND24 Y1
 U 1 1 5C6E2635
 P 1550 4250
 F 0 "Y1" V 1504 4491 50  0000 L CNN
-F 1 "Crystal_GND24" V 1950 4250 50  0000 L CNN
+F 1 "Crystal_GND24" V 1400 4250 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1550 4250 50  0001 C CNN
 F 3 "~" H 1550 4250 50  0001 C CNN
 	1    1550 4250
@@ -965,8 +965,6 @@ Wire Wire Line
 	9000 2250 9000 2600
 Wire Wire Line
 	5150 3650 5900 3650
-Text HLabel 5450 1350 2    50   Input ~ 0
-~SYSRESET
 Wire Wire Line
 	5150 5950 5400 5950
 Wire Wire Line
@@ -1458,6 +1456,125 @@ Wire Wire Line
 Connection ~ 1600 2350
 Wire Wire Line
 	1600 2350 1700 2350
+Text Label 5450 1350 2    50   ~ 0
+~RST
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D500B16
+P 7950 3050
+F 0 "SW?" V 7996 3198 50  0000 L CNN
+F 1 "RST_SW" V 7905 3198 50  0000 L CNN
+F 2 "" H 7950 3250 50  0001 C CNN
+F 3 "~" H 7950 3250 50  0001 C CNN
+	1    7950 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D5021C3
+P 7750 2750
+F 0 "R?" V 7554 2750 50  0000 C CNN
+F 1 "100" V 7645 2750 50  0000 C CNN
+F 2 "" H 7750 2750 50  0001 C CNN
+F 3 "~" H 7750 2750 50  0001 C CNN
+	1    7750 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D50D384
+P 7450 2950
+F 0 "C?" H 7358 2996 50  0000 R CNN
+F 1 "0.1u" H 7358 2905 50  0000 R CNN
+F 2 "" H 7450 2950 50  0001 C CNN
+F 3 "~" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2850 7950 2750
+Wire Wire Line
+	7950 2750 7850 2750
+Wire Wire Line
+	7650 2750 7500 2750
+Wire Wire Line
+	7450 2750 7450 2850
+Wire Wire Line
+	7450 3050 7450 3350
+Wire Wire Line
+	7450 3350 7700 3350
+Wire Wire Line
+	7950 3350 7950 3250
+Wire Wire Line
+	7500 2750 7500 2650
+Connection ~ 7500 2750
+Wire Wire Line
+	7500 2750 7450 2750
+$Comp
+L Device:R_Small R?
+U 1 1 5D54D687
+P 7500 2550
+F 0 "R?" H 7441 2504 50  0000 R CNN
+F 1 "10k" H 7441 2595 50  0000 R CNN
+F 2 "" H 7500 2550 50  0001 C CNN
+F 3 "~" H 7500 2550 50  0001 C CNN
+	1    7500 2550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7500 2450 7500 2400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D55E558
+P 7500 2400
+F 0 "#PWR?" H 7500 2250 50  0001 C CNN
+F 1 "+3.3V" H 7515 2573 50  0000 C CNN
+F 2 "" H 7500 2400 50  0001 C CNN
+F 3 "" H 7500 2400 50  0001 C CNN
+	1    7500 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2750 7100 2750
+Connection ~ 7450 2750
+Wire Wire Line
+	7700 3350 7700 3400
+Connection ~ 7700 3350
+Wire Wire Line
+	7700 3350 7950 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5D57F82F
+P 7700 3400
+F 0 "#PWR?" H 7700 3150 50  0001 C CNN
+F 1 "GND" H 7705 3227 50  0000 C CNN
+F 2 "" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	-1   0    0    -1  
+$EndComp
+Text Label 7100 2750 0    50   ~ 0
+~RST
+Wire Wire Line
+	5150 6050 5400 6050
+Text HLabel 5400 6050 2    50   Input ~ 0
+~SYSRESET
+Text HLabel 2450 4600 0    50   Input ~ 0
+UART_DEBUG_RXD
+Text HLabel 2450 4700 0    50   Input ~ 0
+UART_DEBUG_TXD
+Wire Wire Line
+	2550 4350 2550 4600
+Wire Wire Line
+	2550 4600 2450 4600
+Wire Wire Line
+	2550 4350 2750 4350
+Wire Wire Line
+	2600 4450 2600 4700
+Wire Wire Line
+	2600 4700 2450 4700
+Wire Wire Line
+	2600 4450 2750 4450
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
