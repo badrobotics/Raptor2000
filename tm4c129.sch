@@ -143,7 +143,7 @@ L Device:C_Small C10
 U 1 1 5C81026F
 P 1950 1900
 F 0 "C10" H 2042 1946 50  0000 L CNN
-F 1 "0.1" H 2042 1855 50  0000 L CNN
+F 1 "0.1u" H 2042 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1950 1900 50  0001 C CNN
 F 3 "~" H 1950 1900 50  0001 C CNN
 	1    1950 1900
@@ -586,7 +586,7 @@ L Device:C_Small C13
 U 1 1 5D1335F6
 P 2150 1250
 F 0 "C13" H 2242 1296 50  0000 L CNN
-F 1 "0.1" H 2242 1205 50  0000 L CNN
+F 1 "0.1u" H 2242 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2150 1250 50  0001 C CNN
 F 3 "~" H 2150 1250 50  0001 C CNN
 	1    2150 1250
@@ -1079,7 +1079,7 @@ L Device:C_Small C15
 U 1 1 5D5C063F
 P 8050 3000
 F 0 "C15" V 8279 3000 50  0000 C CNN
-F 1 "0.1" V 8188 3000 50  0000 C CNN
+F 1 "0.1u" V 8188 3000 50  0000 C CNN
 F 2 "" H 8050 3000 50  0001 C CNN
 F 3 "~" H 8050 3000 50  0001 C CNN
 	1    8050 3000
@@ -1090,7 +1090,7 @@ L Device:C_Small C16
 U 1 1 5D5C0AB1
 P 8050 3350
 F 0 "C16" V 8279 3350 50  0000 C CNN
-F 1 "0.1" V 8188 3350 50  0000 C CNN
+F 1 "0.1u" V 8188 3350 50  0000 C CNN
 F 2 "" H 8050 3350 50  0001 C CNN
 F 3 "~" H 8050 3350 50  0001 C CNN
 	1    8050 3350
@@ -1166,9 +1166,7 @@ Wire Wire Line
 	8250 3000 8250 3350
 Wire Wire Line
 	5150 3650 5900 3650
-Wire Wire Line
-	5150 1350 5400 1350
-Text HLabel 5400 1350 2    50   Input ~ 0
+Text HLabel 5450 1350 2    50   Input ~ 0
 ~SYSRESET
 Wire Wire Line
 	5150 5950 5400 5950
@@ -1436,10 +1434,12 @@ Text Label 5450 2250 0    50   ~ 0
 EPI030
 Text Label 5450 2350 0    50   ~ 0
 EPI029
+Text Notes 6050 5050 0    50   ~ 0
+EPI0S31 should be configured for 12mA drive. \nThe rest of the EPI signals can be 8mA drive.
+Wire Wire Line
+	5150 1350 5450 1350
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
 	6000 2200 6000 7600
-Text Notes 6050 5050 0    50   ~ 0
-EPI0S31 should be configured for 12mA drive. \nThe rest of the EPI signals can be 8mA drive.
 $EndSCHEMATC
