@@ -376,44 +376,29 @@ F 3 "~" H 9300 2550 50  0001 C CNN
 	1    9300 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 2800 9300 2800
-Wire Wire Line
-	9300 2450 9300 2350
 $Comp
 L power:+3.3V #PWR0120
 U 1 1 5D35E492
-P 9300 2350
-F 0 "#PWR0120" H 9300 2200 50  0001 C CNN
-F 1 "+3.3V" H 9315 2523 50  0000 C CNN
-F 2 "" H 9300 2350 50  0001 C CNN
-F 3 "" H 9300 2350 50  0001 C CNN
-	1    9300 2350
+P 9050 2250
+F 0 "#PWR0120" H 9050 2100 50  0001 C CNN
+F 1 "+3.3V" H 9065 2423 50  0000 C CNN
+F 2 "" H 9050 2250 50  0001 C CNN
+F 3 "" H 9050 2250 50  0001 C CNN
+	1    9050 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9400 3100 9200 3100
-Wire Wire Line
-	9400 2900 9200 2900
-Wire Wire Line
-	9400 3000 9200 3000
-Wire Wire Line
-	9400 3300 9200 3300
-Wire Wire Line
-	9400 3200 9200 3200
-Text HLabel 9200 3100 0    50   Input ~ 0
+Text HLabel 8750 3100 0    50   Input ~ 0
 FLASH_DAT0
-Text HLabel 9200 2900 0    50   Input ~ 0
+Text HLabel 8750 2900 0    50   Input ~ 0
 FLASH_DAT1
-Text HLabel 9200 3000 0    50   Input ~ 0
+Text HLabel 8750 3000 0    50   Input ~ 0
 FLASH_DAT2
-Text HLabel 9200 3200 0    50   Input ~ 0
+Text HLabel 8750 3200 0    50   Input ~ 0
 FLASH_SCLK
-Text HLabel 9200 3300 0    50   Input ~ 0
+Text HLabel 8750 3300 0    50   Input ~ 0
 FLASH_DAT3
-Text HLabel 9200 2800 0    50   Input ~ 0
+Text HLabel 8750 2800 0    50   Input ~ 0
 ~FLASH_CS
-Connection ~ 9300 2800
 Wire Wire Line
 	9300 2800 9400 2800
 Wire Bus Line
@@ -660,8 +645,97 @@ Text HLabel 3750 2200 0    50   Input ~ 0
 EPI0S[0..31]
 Wire Wire Line
 	9300 2650 9300 2800
+Wire Wire Line
+	8750 3300 8800 3300
+Wire Wire Line
+	8750 3200 9000 3200
+Wire Wire Line
+	8750 3100 9400 3100
+Wire Wire Line
+	8750 3000 9050 3000
+Wire Wire Line
+	8750 2900 9400 2900
+Wire Wire Line
+	8750 2800 9300 2800
+Connection ~ 9300 2800
+$Comp
+L Device:R_Small R22
+U 1 1 5D15943F
+P 8800 2550
+F 0 "R22" H 8859 2596 50  0000 L CNN
+F 1 "DNP" H 8859 2505 50  0000 L CNN
+F 2 "" H 8800 2550 50  0001 C CNN
+F 3 "~" H 8800 2550 50  0001 C CNN
+	1    8800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R23
+U 1 1 5D15A674
+P 9000 3500
+F 0 "R23" H 9059 3546 50  0000 L CNN
+F 1 "1M" H 9059 3455 50  0000 L CNN
+F 2 "" H 9000 3500 50  0001 C CNN
+F 3 "~" H 9000 3500 50  0001 C CNN
+	1    9000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2650 9050 3000
+Connection ~ 9050 3000
+Wire Wire Line
+	9050 3000 9400 3000
+Wire Wire Line
+	8800 2650 8800 3300
+Connection ~ 8800 3300
+Wire Wire Line
+	8800 3300 9400 3300
+Wire Wire Line
+	9000 3400 9000 3200
+Connection ~ 9000 3200
+Wire Wire Line
+	9000 3200 9400 3200
+Wire Wire Line
+	9050 2450 9050 2300
+Wire Wire Line
+	9050 2300 9300 2300
+Wire Wire Line
+	9300 2300 9300 2450
+Connection ~ 9050 2300
+Wire Wire Line
+	9050 2300 8800 2300
+Wire Wire Line
+	8800 2300 8800 2450
+Wire Wire Line
+	9050 2250 9050 2300
+Wire Wire Line
+	9000 3600 9000 3700
 Wire Bus Line
 	7450 2300 7450 5350
 Wire Bus Line
 	3850 2200 3850 5350
+$Comp
+L power:GND #PWR0144
+U 1 1 5D17FF4A
+P 9000 3700
+F 0 "#PWR0144" H 9000 3450 50  0001 C CNN
+F 1 "GND" H 9005 3527 50  0000 C CNN
+F 2 "" H 9000 3700 50  0001 C CNN
+F 3 "" H 9000 3700 50  0001 C CNN
+	1    9000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5D158F93
+P 9050 2550
+F 0 "R24" H 9109 2596 50  0000 L CNN
+F 1 "DNP" H 9109 2505 50  0000 L CNN
+F 2 "" H 9050 2550 50  0001 C CNN
+F 3 "~" H 9050 2550 50  0001 C CNN
+	1    9050 2550
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 2100 0    50   ~ 0
+EPI Traces must have a capacitance of < 35pF
 $EndSCHEMATC
