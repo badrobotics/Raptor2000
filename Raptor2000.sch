@@ -28,10 +28,10 @@ F7 "~FLASH_CS" I L 7000 2350 50
 F8 "EPI0S[0..31]" I L 7000 2150 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H101
 U 1 1 5D72A6F8
 P 3850 2150
-F 0 "H1" H 3950 2196 50  0000 L CNN
+F 0 "H101" H 3950 2196 50  0000 L CNN
 F 1 "MountingHole" H 3950 2105 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3850 2150 50  0001 C CNN
 F 3 "~" H 3850 2150 50  0001 C CNN
@@ -39,10 +39,10 @@ F 3 "~" H 3850 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H102
 U 1 1 5D72AB0A
 P 3850 2450
-F 0 "H2" H 3950 2496 50  0000 L CNN
+F 0 "H102" H 3950 2496 50  0000 L CNN
 F 1 "MountingHole" H 3950 2405 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3850 2450 50  0001 C CNN
 F 3 "~" H 3850 2450 50  0001 C CNN
@@ -50,10 +50,10 @@ F 3 "~" H 3850 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H103
 U 1 1 5D72ACC5
 P 3850 2750
-F 0 "H3" H 3950 2796 50  0000 L CNN
+F 0 "H103" H 3950 2796 50  0000 L CNN
 F 1 "MountingHole" H 3950 2705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3850 2750 50  0001 C CNN
 F 3 "~" H 3850 2750 50  0001 C CNN
@@ -61,10 +61,10 @@ F 3 "~" H 3850 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H104
 U 1 1 5D72AE66
 P 3850 3050
-F 0 "H4" H 3950 3096 50  0000 L CNN
+F 0 "H104" H 3950 3096 50  0000 L CNN
 F 1 "MountingHole" H 3950 3005 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3850 3050 50  0001 C CNN
 F 3 "~" H 3850 3050 50  0001 C CNN

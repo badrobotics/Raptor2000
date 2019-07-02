@@ -14,371 +14,154 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	7450 4500 7500 4500
-Wire Wire Line
-	7500 4500 7500 4600
-Wire Wire Line
-	7500 4900 7450 4900
-Wire Wire Line
-	7450 4800 7500 4800
-Connection ~ 7500 4800
-Wire Wire Line
-	7500 4800 7500 4900
-Wire Wire Line
-	7450 4700 7500 4700
-Connection ~ 7500 4700
-Wire Wire Line
-	7500 4700 7500 4800
-Wire Wire Line
-	7450 4600 7500 4600
-Connection ~ 7500 4600
-Wire Wire Line
-	7500 4600 7500 4700
-Wire Wire Line
-	7450 3900 7500 3900
-Wire Wire Line
-	7500 3900 7500 4000
-Wire Wire Line
-	7500 4300 7450 4300
-Wire Wire Line
-	7450 4200 7500 4200
-Connection ~ 7500 4200
-Wire Wire Line
-	7500 4200 7500 4300
-Wire Wire Line
-	7450 4100 7500 4100
-Connection ~ 7500 4100
-Wire Wire Line
-	7500 4100 7500 4200
-Wire Wire Line
-	7450 4000 7500 4000
-Connection ~ 7500 4000
-Wire Wire Line
-	7500 4000 7500 4100
-Wire Wire Line
-	7450 3200 7500 3200
-Wire Wire Line
-	7500 3200 7500 3300
-Wire Wire Line
-	7500 3600 7450 3600
-Wire Wire Line
-	7450 3500 7500 3500
-Connection ~ 7500 3500
-Wire Wire Line
-	7500 3500 7500 3600
-Wire Wire Line
-	7450 3400 7500 3400
-Connection ~ 7500 3400
-Wire Wire Line
-	7500 3400 7500 3500
-Wire Wire Line
-	7450 3300 7500 3300
-Connection ~ 7500 3300
-Wire Wire Line
-	7500 3300 7500 3400
-Wire Wire Line
-	7450 2600 7500 2600
-Wire Wire Line
-	7500 2600 7500 2700
-Wire Wire Line
-	7500 3000 7450 3000
-Wire Wire Line
-	7450 2900 7500 2900
-Connection ~ 7500 2900
-Wire Wire Line
-	7500 2900 7500 3000
-Wire Wire Line
-	7450 2800 7500 2800
-Connection ~ 7500 2800
-Wire Wire Line
-	7500 2800 7500 2900
-Wire Wire Line
-	7450 2700 7500 2700
-Connection ~ 7500 2700
-Wire Wire Line
-	7500 2700 7500 2800
-Wire Wire Line
-	6550 4500 6500 4500
-Wire Wire Line
-	6500 4500 6500 4600
-Wire Wire Line
-	6500 4900 6550 4900
-Wire Wire Line
-	6550 4800 6500 4800
-Connection ~ 6500 4800
-Wire Wire Line
-	6500 4800 6500 4900
-Wire Wire Line
-	6550 4700 6500 4700
-Connection ~ 6500 4700
-Wire Wire Line
-	6500 4700 6500 4800
-Wire Wire Line
-	6550 4600 6500 4600
-Connection ~ 6500 4600
-Wire Wire Line
-	6500 4600 6500 4700
-Wire Wire Line
-	6550 3900 6500 3900
-Wire Wire Line
-	6500 3900 6500 4000
-Wire Wire Line
-	6500 4300 6550 4300
-Wire Wire Line
-	6550 4200 6500 4200
-Connection ~ 6500 4200
-Wire Wire Line
-	6500 4200 6500 4300
-Wire Wire Line
-	6550 4100 6500 4100
-Connection ~ 6500 4100
-Wire Wire Line
-	6500 4100 6500 4200
-Wire Wire Line
-	6550 4000 6500 4000
-Connection ~ 6500 4000
-Wire Wire Line
-	6500 4000 6500 4100
-Wire Wire Line
-	6550 3200 6500 3200
-Wire Wire Line
-	6500 3200 6500 3300
-Wire Wire Line
-	6500 3600 6550 3600
-Wire Wire Line
-	6550 3500 6500 3500
-Connection ~ 6500 3500
-Wire Wire Line
-	6500 3500 6500 3600
-Wire Wire Line
-	6550 3400 6500 3400
-Connection ~ 6500 3400
-Wire Wire Line
-	6500 3400 6500 3500
-Wire Wire Line
-	6550 3300 6500 3300
-Connection ~ 6500 3300
-Wire Wire Line
-	6500 3300 6500 3400
-Wire Wire Line
-	6550 2600 6500 2600
-Wire Wire Line
-	6500 2600 6500 2700
-Wire Wire Line
-	6500 3000 6550 3000
-Wire Wire Line
-	6550 2900 6500 2900
-Connection ~ 6500 2900
-Wire Wire Line
-	6500 2900 6500 3000
-Wire Wire Line
-	6550 2800 6500 2800
-Connection ~ 6500 2800
-Wire Wire Line
-	6500 2800 6500 2900
-Wire Wire Line
-	6550 2700 6500 2700
-Connection ~ 6500 2700
-Wire Wire Line
-	6500 2700 6500 2800
-Wire Wire Line
-	6500 3000 6500 3050
-Wire Wire Line
-	6500 3050 7500 3050
-Wire Wire Line
-	7500 3050 7500 3000
-Connection ~ 6500 3000
-Connection ~ 7500 3000
-Wire Wire Line
-	6500 3600 6500 3650
-Wire Wire Line
-	6500 3650 7500 3650
-Wire Wire Line
-	7500 3650 7500 3600
-Connection ~ 6500 3600
-Connection ~ 7500 3600
-Wire Wire Line
-	6500 4300 6500 4350
-Wire Wire Line
-	6500 4350 7500 4350
-Wire Wire Line
-	7500 4350 7500 4300
-Connection ~ 6500 4300
-Connection ~ 7500 4300
-Wire Wire Line
-	6500 4900 6500 4950
-Wire Wire Line
-	6500 4950 7500 4950
-Wire Wire Line
-	7500 4950 7500 4900
-Connection ~ 6500 4900
-Connection ~ 7500 4900
-$Comp
-L power:GND #PWR0112
-U 1 1 5CBC5B8A
-P 7600 2600
-F 0 "#PWR0112" H 7600 2350 50  0001 C CNN
-F 1 "GND" H 7605 2427 50  0000 C CNN
-F 2 "" H 7600 2600 50  0001 C CNN
-F 3 "" H 7600 2600 50  0001 C CNN
-	1    7600 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 2600 7600 2600
-Connection ~ 7500 2600
-$Comp
-L power:+BATT #PWR0113
-U 1 1 5CBC9B77
-P 7600 3200
-F 0 "#PWR0113" H 7600 3050 50  0001 C CNN
-F 1 "+BATT" H 7615 3373 50  0000 C CNN
-F 2 "" H 7600 3200 50  0001 C CNN
-F 3 "" H 7600 3200 50  0001 C CNN
-	1    7600 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 3200 7600 3200
-Connection ~ 7500 3200
-$Comp
-L power:+5V #PWR0114
-U 1 1 5CBCDCE7
-P 7600 3900
-F 0 "#PWR0114" H 7600 3750 50  0001 C CNN
-F 1 "+5V" H 7615 4073 50  0000 C CNN
-F 2 "" H 7600 3900 50  0001 C CNN
-F 3 "" H 7600 3900 50  0001 C CNN
-	1    7600 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 3900 7600 3900
-Connection ~ 7500 3900
-$Comp
-L power:+3.3V #PWR0115
-U 1 1 5CBD1D1C
-P 7600 4500
-F 0 "#PWR0115" H 7600 4350 50  0001 C CNN
-F 1 "+3.3V" H 7615 4673 50  0000 C CNN
-F 2 "" H 7600 4500 50  0001 C CNN
-F 3 "" H 7600 4500 50  0001 C CNN
-	1    7600 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 4500 7600 4500
-Connection ~ 7500 4500
-$Comp
-L Exodus_Connectors:ET60T-02-24-02-X-RTX-GP U2
-U 2 1 5CD06A23
-P 6550 2600
-F 0 "U2" H 7000 2867 50  0000 C CNN
-F 1 "ET60T-02-24-02-X-RTX-GP" H 7000 2776 50  0000 C CNN
-F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 6550 2600 50  0001 L BNN
-F 3 "" H 6550 2600 50  0001 L BNN
-F 4 "ET60T-02-24-02-L-RT1-GP" H 6550 2600 50  0001 L BNN "Field4"
-F 5 "7.24 USD" H 6550 2600 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 6550 2600 50  0001 L BNN "Field6"
-F 7 "None" H 6550 2600 50  0001 L BNN "Field7"
-F 8 "Et60t Right Angle Plug Power Ass" H 6550 2600 50  0001 L BNN "Field8"
-	2    6550 2600
-	1    0    0    -1  
-$EndComp
-Text HLabel 5150 3800 2    50   Input ~ 0
+Text HLabel 5800 4400 2    50   Input ~ 0
 USB_OTG_ID
-Text HLabel 5150 3900 2    50   Input ~ 0
+Text HLabel 5800 4500 2    50   Input ~ 0
 USB_OTG_VBUS
 Wire Wire Line
-	5000 3600 5150 3600
+	5650 4200 5800 4200
 Wire Wire Line
-	5000 3700 5150 3700
+	5650 4300 5800 4300
 Wire Wire Line
-	4100 4200 3950 4200
+	5650 4500 5800 4500
 Wire Wire Line
-	5000 3900 5150 3900
+	5650 4400 5800 4400
 Wire Wire Line
-	5000 3800 5150 3800
-Wire Wire Line
-	4100 4300 3950 4300
-Wire Wire Line
-	4100 4400 3950 4400
-Wire Wire Line
-	4100 3500 3950 3500
-Wire Wire Line
-	5000 3500 5150 3500
-Text HLabel 5150 3600 2    50   Input ~ 0
+	5650 3500 5800 3500
+Text HLabel 5800 4200 2    50   Input ~ 0
 USB_OTG_N
-Text HLabel 5150 3700 2    50   Input ~ 0
+Text HLabel 5800 4300 2    50   Input ~ 0
 USB_OTG_P
-Text HLabel 3950 3500 0    50   Input ~ 0
+Text HLabel 5800 3500 2    50   Input ~ 0
 JTAG_TMS
-Text HLabel 5150 3300 2    50   Input ~ 0
+Text HLabel 5800 3400 2    50   Input ~ 0
 JTAG_TDI
-Text HLabel 5150 3200 2    50   Input ~ 0
+Text HLabel 5800 3300 2    50   Input ~ 0
 JTAG_TDO
-Text HLabel 3950 3600 0    50   Input ~ 0
+Text HLabel 5800 3600 2    50   Input ~ 0
 JTAG_TCK
-Text HLabel 3950 3700 0    50   Input ~ 0
+Text HLabel 5800 3700 2    50   Input ~ 0
 ~JTAG_TRST
-Text HLabel 3950 3900 0    50   Input ~ 0
+Text HLabel 5800 3900 2    50   Input ~ 0
 ~ENABLE
-Text HLabel 3950 3800 0    50   Input ~ 0
+Text HLabel 5800 3800 2    50   Input ~ 0
 ~SYSRESET
-Text HLabel 5150 3500 2    50   Input ~ 0
+Text HLabel 5800 4000 2    50   Input ~ 0
 ~INHIBIT
+Wire Wire Line
+	5650 3600 5800 3600
+Wire Wire Line
+	5800 3700 5650 3700
+Wire Wire Line
+	5800 3800 5650 3800
+Wire Wire Line
+	5800 3900 5650 3900
+Wire Wire Line
+	5650 3300 5800 3300
+Wire Wire Line
+	5650 3400 5800 3400
 $Comp
-L Exodus_Connectors:ET60T-02-24-02-X-RTX-GP U2
-U 1 1 5CCFCE47
-P 4100 2900
-F 0 "U2" H 4550 3167 50  0000 C CNN
-F 1 "ET60T-02-24-02-X-RTX-GP" H 4550 3076 50  0000 C CNN
-F 2 "Exodus_Connectors:ET60T-02-24-02-X-RTX-GP-HS" H 4100 2900 50  0001 L BNN
-F 3 "" H 4100 2900 50  0001 L BNN
-F 4 "ET60T-02-24-02-L-RT1-GP" H 4100 2900 50  0001 L BNN "Field4"
-F 5 "7.24 USD" H 4100 2900 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 4100 2900 50  0001 L BNN "Field6"
-F 7 "None" H 4100 2900 50  0001 L BNN "Field7"
-F 8 "Et60t Right Angle Plug Power Ass" H 4100 2900 50  0001 L BNN "Field8"
-	1    4100 2900
+L Exodus_Connectors:ET60T-000-3-08-D04-x-R1-S-x J301
+U 1 1 5D1B1EE2
+P 5350 3900
+F 0 "J301" H 5458 5665 50  0000 C CNN
+F 1 "ET60T-000-3-08-D04-x-R1-S-x" H 5458 5574 50  0000 C CNN
+F 2 "Exodus_Connectors:Conn_Samtec_ET60T-000-3-08-D-4-x-R1-S-x" H 5350 5600 50  0001 C CNN
+F 3 "" H 5350 5600 50  0001 C CNN
+	1    5350 3900
 	1    0    0    -1  
 $EndComp
-Text HLabel 3950 4200 0    50   Input ~ 0
-RD_N
-Text HLabel 3950 4300 0    50   Input ~ 0
-RD_P
-Text HLabel 3950 4400 0    50   Input ~ 0
-TD_N
-Text HLabel 3950 4500 0    50   Input ~ 0
+Wire Wire Line
+	5800 4000 5650 4000
+Wire Wire Line
+	5650 4900 5800 4900
+Text HLabel 5800 4900 2    50   Input ~ 0
 TD_P
+Text HLabel 5800 4800 2    50   Input ~ 0
+TD_N
+Text HLabel 5800 4700 2    50   Input ~ 0
+RD_P
+Text HLabel 5800 4600 2    50   Input ~ 0
+RD_N
 Wire Wire Line
-	4100 4500 3950 4500
+	5650 4800 5800 4800
 Wire Wire Line
-	4100 3600 3950 3600
+	5650 4700 5800 4700
 Wire Wire Line
-	3950 3700 4100 3700
+	5650 4600 5800 4600
 Wire Wire Line
-	3950 3800 4100 3800
+	5750 5400 5850 5400
+Wire Wire Line
+	5850 5400 5850 5500
 $Comp
-L power:+3.3V #PWR0116
-U 1 1 5D577E77
-P 3900 2750
-F 0 "#PWR0116" H 3900 2600 50  0001 C CNN
-F 1 "+3.3V" H 3915 2923 50  0000 C CNN
-F 2 "" H 3900 2750 50  0001 C CNN
-F 3 "" H 3900 2750 50  0001 C CNN
-	1    3900 2750
+L power:GND #PWR0301
+U 1 1 5D20120D
+P 5850 5500
+F 0 "#PWR0301" H 5850 5250 50  0001 C CNN
+F 1 "GND" H 5855 5327 50  0000 C CNN
+F 2 "" H 5850 5500 50  0001 C CNN
+F 3 "" H 5850 5500 50  0001 C CNN
+	1    5850 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2750 3900 2900
+	6200 5100 6200 5050
+$Comp
+L power:+3.3V #PWR0302
+U 1 1 5D206018
+P 6200 5050
+F 0 "#PWR0302" H 6200 4900 50  0001 C CNN
+F 1 "+3.3V" H 6215 5223 50  0000 C CNN
+F 2 "" H 6200 5050 50  0001 C CNN
+F 3 "" H 6200 5050 50  0001 C CNN
+	1    6200 5050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3900 2900 4100 2900
+	5750 5100 6200 5100
 Wire Wire Line
-	3950 3900 4100 3900
+	6400 5200 6400 5050
 Wire Wire Line
-	5000 3200 5150 3200
+	5750 5200 6400 5200
+$Comp
+L power:+5V #PWR0304
+U 1 1 5D219F80
+P 6400 5050
+F 0 "#PWR0304" H 6400 4900 50  0001 C CNN
+F 1 "+5V" H 6415 5223 50  0000 C CNN
+F 2 "" H 6400 5050 50  0001 C CNN
+F 3 "" H 6400 5050 50  0001 C CNN
+	1    6400 5050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5000 3300 5150 3300
+	5750 5300 6600 5300
+Wire Wire Line
+	6600 5300 6600 5050
+$Comp
+L power:+BATT #PWR0305
+U 1 1 5D21F2D4
+P 6600 5050
+F 0 "#PWR0305" H 6600 4900 50  0001 C CNN
+F 1 "+BATT" H 6615 5223 50  0000 C CNN
+F 2 "" H 6600 5050 50  0001 C CNN
+F 3 "" H 6600 5050 50  0001 C CNN
+	1    6600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2400 6250 2400
+Wire Wire Line
+	6250 2400 6250 2300
+$Comp
+L power:+3.3V #PWR0303
+U 1 1 5D225BC1
+P 6250 2300
+F 0 "#PWR0303" H 6250 2150 50  0001 C CNN
+F 1 "+3.3V" H 6265 2473 50  0000 C CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
