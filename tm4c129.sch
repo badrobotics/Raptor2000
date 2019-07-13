@@ -54,8 +54,6 @@ Connection ~ 2700 3050
 Wire Wire Line
 	2750 2850 2450 2850
 Wire Wire Line
-	2450 2850 2450 2600
-Wire Wire Line
 	2450 2550 2750 2550
 Wire Wire Line
 	2750 1250 2450 1250
@@ -728,7 +726,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 2550 10150 2700
 Text Label 9050 5750 0    50   ~ 0
-USER_LED1_CATHOD
+USER_LED2_CATHODE
 Text Label 9050 4450 0    50   ~ 0
 USER_LED0_CATHODE
 Text Label 8100 5750 0    50   ~ 0
@@ -826,9 +824,9 @@ F 3 "~" H 10150 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 10150 5750 0    50   ~ 0
-USER_LED1_CATHOD
+USER_LED3_CATHODE
 Text Label 10150 4450 0    50   ~ 0
-USER_LED0_CATHODE
+USER_LED1_CATHODE
 $Comp
 L Device:R_Small R412
 U 1 1 5D5BE860
@@ -1446,9 +1444,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 2600 2450 2600
 Connection ~ 1800 2600
-Connection ~ 2450 2600
-Wire Wire Line
-	2450 2600 2450 2550
 Wire Wire Line
 	1450 2350 1600 2350
 Wire Wire Line
@@ -1590,8 +1585,15 @@ F 3 "" H 5600 1300 50  0001 C CNN
 	1    5600 1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 2600 2600 2600
+Wire Wire Line
+	2600 2600 2600 2650
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
 	6000 2200 6000 7600
+Connection ~ 2600 2650
+Wire Wire Line
+	2450 2550 2450 2850
 $EndSCHEMATC
