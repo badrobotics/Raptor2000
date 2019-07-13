@@ -430,4 +430,12 @@ Text Label 5350 3550 0    50   ~ 0
 USB_LED_0
 Text Label 5950 3650 2    50   ~ 0
 USB_LED_1
+Text Label 7600 2850 0    50   ~ 0
+DBG_USB_D_P
+Text Label 7600 2950 0    50   ~ 0
+DBG_USB_D_N
+Text Label 7800 2650 0    50   ~ 0
+DBG_VBUS
+Text Label 8450 3500 0    50   ~ 0
+DBG_USB_SHIELD
 $EndSCHEMATC
