@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+LIBS:Raptor2000-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5300 3600 0    50   ~ 0
+Batt_Pos
+$Comp
+L Regulator_Linear:LT1761-3 U?
+U 1 1 5D2F311C
+P 4600 3700
+AR Path="/5C80AE96/5D2F311C" Ref="U?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F311C" Ref="U1"  Part="1" 
+F 0 "U1" H 4600 4067 50  0000 C CNN
+F 1 "LT1761-3" H 4600 3976 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 4600 4025 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3600 4150 3600
+Wire Wire Line
+	4150 3600 4150 3700
+Wire Wire Line
+	4150 3700 4200 3700
+Wire Wire Line
+	4150 3600 4150 3500
+Connection ~ 4150 3600
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D2F3127
+P 4150 3500
+AR Path="/5C80AE96/5D2F3127" Ref="#PWR?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F3127" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4150 3350 50  0001 C CNN
+F 1 "+BATT" H 4165 3673 50  0000 C CNN
+F 2 "" H 4150 3500 50  0001 C CNN
+F 3 "" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4000 4600 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5D2F312E
+P 4600 4050
+AR Path="/5C80AE96/5D2F312E" Ref="#PWR?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F312E" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4600 3800 50  0001 C CNN
+F 1 "GND" H 4605 3877 50  0000 C CNN
+F 2 "" H 4600 4050 50  0001 C CNN
+F 3 "" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D2F3134
+P 5500 3700
+AR Path="/5C80AE96/5D2F3134" Ref="C?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F3134" Ref="C2"  Part="1" 
+F 0 "C2" H 5592 3746 50  0000 L CNN
+F 1 "10u" H 5592 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 3700 50  0001 C CNN
+F 3 "~" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3800 5500 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5D2F313B
+P 5500 3850
+AR Path="/5C80AE96/5D2F313B" Ref="#PWR?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F313B" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5500 3600 50  0001 C CNN
+F 1 "GND" H 5505 3677 50  0000 C CNN
+F 2 "" H 5500 3850 50  0001 C CNN
+F 3 "" H 5500 3850 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D2F3141
+P 5150 3700
+AR Path="/5C80AE96/5D2F3141" Ref="C?"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D2F3141" Ref="C1"  Part="1" 
+F 0 "C1" H 5242 3746 50  0000 L CNN
+F 1 "0.1u" H 5242 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5150 3700 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3700 5050 3700
+Wire Wire Line
+	5000 3600 5300 3600
+Wire Wire Line
+	5250 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 3600
+Connection ~ 5300 3600
+Wire Wire Line
+	5300 3600 5500 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	5500 3600 5700 3600
+Text HLabel 5700 3600 2    50   Input ~ 0
+Vout
+$EndSCHEMATC
