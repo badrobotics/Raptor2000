@@ -395,21 +395,6 @@ $EndComp
 Wire Wire Line
 	5900 900  5900 1050
 $Comp
-L Device:Battery_Cell BT401
-U 1 1 5D11D2E9
-P 1450 1300
-F 0 "BT401" H 1568 1396 50  0000 L CNN
-F 1 "Battery_Cell" H 1568 1305 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 1450 1360 50  0001 C CNN
-F 3 "~" V 1450 1360 50  0001 C CNN
-	1    1450 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 1100 1450 1050
-Wire Wire Line
-	1450 1050 1850 1050
-$Comp
 L Device:R_Small R401
 U 1 1 5D132E60
 P 1950 1050
@@ -435,8 +420,8 @@ Wire Wire Line
 	2050 1050 2150 1050
 Wire Wire Line
 	2150 1050 2150 1150
-Text Label 2400 1050 0    50   ~ 0
-VBat
+Text Label 2550 1050 0    50   ~ 0
+VBat_R
 Text Label 1450 1050 0    50   ~ 0
 Batt_Pos
 $Comp
@@ -453,12 +438,12 @@ $EndComp
 $Comp
 L power:GND #PWR0405
 U 1 1 5D116091
-P 1450 1500
-F 0 "#PWR0405" H 1450 1250 50  0001 C CNN
-F 1 "GND" H 1455 1327 50  0000 C CNN
-F 2 "" H 1450 1500 50  0001 C CNN
-F 3 "" H 1450 1500 50  0001 C CNN
-	1    1450 1500
+P 2150 1500
+F 0 "#PWR0405" H 2150 1250 50  0001 C CNN
+F 1 "GND" H 2155 1327 50  0000 C CNN
+F 2 "" H 2150 1500 50  0001 C CNN
+F 3 "" H 2150 1500 50  0001 C CNN
+	1    2150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -484,19 +469,7 @@ F 3 "~" H 1800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1400 1450 1450
-Wire Wire Line
-	1450 1450 2150 1450
-Wire Wire Line
-	2150 1450 2150 1350
-Wire Wire Line
-	1450 1500 1450 1450
-Connection ~ 1450 1450
-Wire Wire Line
 	5900 1150 5900 1300
-Wire Wire Line
-	2750 1050 2150 1050
-Connection ~ 2150 1050
 $Comp
 L Device:R_Small R407
 U 1 1 5D38AAAC
@@ -1589,11 +1562,155 @@ Wire Wire Line
 	2450 2600 2600 2600
 Wire Wire Line
 	2600 2600 2600 2650
+Connection ~ 2600 2650
+Wire Wire Line
+	2450 2550 2450 2850
+Wire Wire Line
+	2150 1350 2150 1500
+$Comp
+L Regulator_Linear:LT1761-3 U1
+U 1 1 5D319EB9
+P 1050 1150
+F 0 "U1" H 1050 1517 50  0000 C CNN
+F 1 "LT1761-3" H 1050 1426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 1050 1475 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf" H 1050 1150 50  0001 C CNN
+	1    1050 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1050 600  1050
+Wire Wire Line
+	600  1050 600  1150
+Wire Wire Line
+	600  1150 650  1150
+Wire Wire Line
+	600  1050 600  950 
+Connection ~ 600  1050
+$Comp
+L power:+BATT #PWR0101
+U 1 1 5D39C749
+P 600 950
+F 0 "#PWR0101" H 600 800 50  0001 C CNN
+F 1 "+BATT" H 615 1123 50  0000 C CNN
+F 2 "" H 600 950 50  0001 C CNN
+F 3 "" H 600 950 50  0001 C CNN
+	1    600  950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1450 1050 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 5D3B002F
+P 1050 1500
+F 0 "#PWR0102" H 1050 1250 50  0001 C CNN
+F 1 "GND" H 1055 1327 50  0000 C CNN
+F 2 "" H 1050 1500 50  0001 C CNN
+F 3 "" H 1050 1500 50  0001 C CNN
+	1    1050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5D3B0A26
+P 1800 1150
+F 0 "C2" H 1892 1196 50  0000 L CNN
+F 1 "10u" H 1892 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 1150 50  0001 C CNN
+F 3 "~" H 1800 1150 50  0001 C CNN
+	1    1800 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1250 1800 1300
+$Comp
+L power:GND #PWR0103
+U 1 1 5D3C4347
+P 1800 1300
+F 0 "#PWR0103" H 1800 1050 50  0001 C CNN
+F 1 "GND" H 1805 1127 50  0000 C CNN
+F 2 "" H 1800 1300 50  0001 C CNN
+F 3 "" H 1800 1300 50  0001 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D3E9FEA
+P 1600 1150
+F 0 "C1" H 1692 1196 50  0000 L CNN
+F 1 "0.1u" H 1692 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 1150 50  0001 C CNN
+F 3 "~" H 1600 1150 50  0001 C CNN
+	1    1600 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 1050
+Wire Wire Line
+	1800 1050 1850 1050
+Wire Wire Line
+	1450 1050 1600 1050
+Connection ~ 1600 1050
+Wire Wire Line
+	1600 1050 1800 1050
+Wire Wire Line
+	1450 1150 1500 1150
+Wire Wire Line
+	1500 1300 1600 1300
+Wire Wire Line
+	1600 1300 1600 1250
+Wire Wire Line
+	1500 1150 1500 1300
+$Comp
+L Device:R_Small R1
+U 1 1 5D4424D9
+P 2300 1050
+F 0 "R1" V 2104 1050 50  0000 C CNN
+F 1 "0" V 2195 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 1050 50  0001 C CNN
+F 3 "~" H 2300 1050 50  0001 C CNN
+	1    2300 1050
+	0    1    1    0   
+$EndComp
+Text Label 2100 1050 0    50   ~ 0
+VBat
+Wire Wire Line
+	2200 1050 2150 1050
+Connection ~ 2150 1050
+Wire Wire Line
+	2400 1050 2500 1050
+$Comp
+L Device:R_Small R2
+U 1 1 5D4934F5
+P 2500 900
+F 0 "R2" H 2441 854 50  0000 R CNN
+F 1 "DNP" H 2441 945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 900 50  0001 C CNN
+F 3 "~" H 2500 900 50  0001 C CNN
+	1    2500 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 1000 2500 1050
+Connection ~ 2500 1050
+Wire Wire Line
+	2500 1050 2750 1050
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5D4A8C01
+P 2500 750
+F 0 "#PWR0104" H 2500 600 50  0001 C CNN
+F 1 "+3.3V" H 2515 923 50  0000 C CNN
+F 2 "" H 2500 750 50  0001 C CNN
+F 3 "" H 2500 750 50  0001 C CNN
+	1    2500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 750  2500 800 
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
 	6000 2200 6000 7600
-Connection ~ 2600 2650
-Wire Wire Line
-	2450 2550 2450 2850
 $EndSCHEMATC
