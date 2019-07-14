@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title "TM4C129"
 Date "2019-06-22"
 Rev "A"
@@ -395,35 +395,22 @@ $EndComp
 Wire Wire Line
 	5900 900  5900 1050
 $Comp
-L Device:R_Small R401
-U 1 1 5D132E60
-P 1950 1050
-F 0 "R401" V 1754 1050 50  0000 C CNN
-F 1 "51" V 1845 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 1050 50  0001 C CNN
-F 3 "~" H 1950 1050 50  0001 C CNN
-	1    1950 1050
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C410
 U 1 1 5D1335F6
-P 2150 1250
-F 0 "C410" H 2242 1296 50  0000 L CNN
-F 1 "0.1u" H 2242 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2150 1250 50  0001 C CNN
-F 3 "~" H 2150 1250 50  0001 C CNN
-	1    2150 1250
+P 1650 1250
+F 0 "C410" H 1742 1296 50  0000 L CNN
+F 1 "0.1u" H 1742 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 1250 50  0001 C CNN
+F 3 "~" H 1650 1250 50  0001 C CNN
+	1    1650 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 1050 2150 1050
+	1550 1050 1650 1050
 Wire Wire Line
-	2150 1050 2150 1150
-Text Label 2550 1050 0    50   ~ 0
+	1650 1050 1650 1150
+Text Label 2150 1050 0    50   ~ 0
 VBat_R
-Text Label 1450 1050 0    50   ~ 0
-Batt_Pos
 $Comp
 L Device:Crystal Y402
 U 1 1 5D0F62EB
@@ -438,12 +425,12 @@ $EndComp
 $Comp
 L power:GND #PWR0405
 U 1 1 5D116091
-P 2150 1500
-F 0 "#PWR0405" H 2150 1250 50  0001 C CNN
-F 1 "GND" H 2155 1327 50  0000 C CNN
-F 2 "" H 2150 1500 50  0001 C CNN
-F 3 "" H 2150 1500 50  0001 C CNN
-	1    2150 1500
+P 1650 1500
+F 0 "#PWR0405" H 1650 1250 50  0001 C CNN
+F 1 "GND" H 1655 1327 50  0000 C CNN
+F 2 "" H 1650 1500 50  0001 C CNN
+F 3 "" H 1650 1500 50  0001 C CNN
+	1    1650 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1256,8 +1243,6 @@ Text Notes 1250 3350 0    50   ~ 0
 VDDC Decoupling cap should \ntotal 3.3uF to 3.4uF
 Text Notes 9500 650  0    50   ~ 0
 Bulk Cap should total 2.2uF to 22uF
-Text Notes 1050 800  0    50   ~ 0
-RC time circuit to meet ontime requirements
 Wire Bus Line
 	1700 4850 1550 4850
 Wire Wire Line
@@ -1566,151 +1551,80 @@ Connection ~ 2600 2650
 Wire Wire Line
 	2450 2550 2450 2850
 Wire Wire Line
-	2150 1350 2150 1500
-$Comp
-L Regulator_Linear:LT1761-3 U1
-U 1 1 5D319EB9
-P 1050 1150
-F 0 "U1" H 1050 1517 50  0000 C CNN
-F 1 "LT1761-3" H 1050 1426 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 1050 1475 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf" H 1050 1150 50  0001 C CNN
-	1    1050 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	650  1050 600  1050
-Wire Wire Line
-	600  1050 600  1150
-Wire Wire Line
-	600  1150 650  1150
-Wire Wire Line
-	600  1050 600  950 
-Connection ~ 600  1050
-$Comp
-L power:+BATT #PWR0101
-U 1 1 5D39C749
-P 600 950
-F 0 "#PWR0101" H 600 800 50  0001 C CNN
-F 1 "+BATT" H 615 1123 50  0000 C CNN
-F 2 "" H 600 950 50  0001 C CNN
-F 3 "" H 600 950 50  0001 C CNN
-	1    600  950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 1450 1050 1500
-$Comp
-L power:GND #PWR0102
-U 1 1 5D3B002F
-P 1050 1500
-F 0 "#PWR0102" H 1050 1250 50  0001 C CNN
-F 1 "GND" H 1055 1327 50  0000 C CNN
-F 2 "" H 1050 1500 50  0001 C CNN
-F 3 "" H 1050 1500 50  0001 C CNN
-	1    1050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5D3B0A26
-P 1800 1150
-F 0 "C2" H 1892 1196 50  0000 L CNN
-F 1 "10u" H 1892 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 1150 50  0001 C CNN
-F 3 "~" H 1800 1150 50  0001 C CNN
-	1    1800 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 1250 1800 1300
-$Comp
-L power:GND #PWR0103
-U 1 1 5D3C4347
-P 1800 1300
-F 0 "#PWR0103" H 1800 1050 50  0001 C CNN
-F 1 "GND" H 1805 1127 50  0000 C CNN
-F 2 "" H 1800 1300 50  0001 C CNN
-F 3 "" H 1800 1300 50  0001 C CNN
-	1    1800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5D3E9FEA
-P 1600 1150
-F 0 "C1" H 1692 1196 50  0000 L CNN
-F 1 "0.1u" H 1692 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 1150 50  0001 C CNN
-F 3 "~" H 1600 1150 50  0001 C CNN
-	1    1600 1150
-	1    0    0    -1  
-$EndComp
-Connection ~ 1800 1050
-Wire Wire Line
-	1800 1050 1850 1050
-Wire Wire Line
-	1450 1050 1600 1050
-Connection ~ 1600 1050
-Wire Wire Line
-	1600 1050 1800 1050
-Wire Wire Line
-	1450 1150 1500 1150
-Wire Wire Line
-	1500 1300 1600 1300
-Wire Wire Line
-	1600 1300 1600 1250
-Wire Wire Line
-	1500 1150 1500 1300
+	1650 1350 1650 1500
 $Comp
 L Device:R_Small R1
 U 1 1 5D4424D9
-P 2300 1050
-F 0 "R1" V 2104 1050 50  0000 C CNN
-F 1 "0" V 2195 1050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 1050 50  0001 C CNN
-F 3 "~" H 2300 1050 50  0001 C CNN
-	1    2300 1050
+P 1900 1050
+F 0 "R1" V 1704 1050 50  0000 C CNN
+F 1 "0" V 1795 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1900 1050 50  0001 C CNN
+F 3 "~" H 1900 1050 50  0001 C CNN
+	1    1900 1050
 	0    1    1    0   
 $EndComp
-Text Label 2100 1050 0    50   ~ 0
+Text Label 1600 1050 0    50   ~ 0
 VBat
-Wire Wire Line
-	2200 1050 2150 1050
-Connection ~ 2150 1050
-Wire Wire Line
-	2400 1050 2500 1050
+Connection ~ 1650 1050
 $Comp
 L Device:R_Small R2
 U 1 1 5D4934F5
-P 2500 900
-F 0 "R2" H 2441 854 50  0000 R CNN
-F 1 "DNP" H 2441 945 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 900 50  0001 C CNN
-F 3 "~" H 2500 900 50  0001 C CNN
-	1    2500 900 
+P 2550 850
+F 0 "R2" H 2491 804 50  0000 R CNN
+F 1 "DNP" H 2491 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2550 850 50  0001 C CNN
+F 3 "~" H 2550 850 50  0001 C CNN
+	1    2550 850 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 1000 2500 1050
-Connection ~ 2500 1050
-Wire Wire Line
-	2500 1050 2750 1050
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5D4A8C01
-P 2500 750
-F 0 "#PWR0104" H 2500 600 50  0001 C CNN
-F 1 "+3.3V" H 2515 923 50  0000 C CNN
-F 2 "" H 2500 750 50  0001 C CNN
-F 3 "" H 2500 750 50  0001 C CNN
-	1    2500 750 
+P 2550 700
+F 0 "#PWR0104" H 2550 550 50  0001 C CNN
+F 1 "+3.3V" H 2565 873 50  0000 C CNN
+F 2 "" H 2550 700 50  0001 C CNN
+F 3 "" H 2550 700 50  0001 C CNN
+	1    2550 700 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 750  2500 800 
+	2550 700  2550 750 
+$Sheet
+S 700  950  550  200 
+U 5D2CB049
+F0 "V_Batt" 50
+F1 "v_batt.sch" 50
+F2 "Vout" I R 1250 1050 50 
+$EndSheet
+Text Notes 550  800  0    50   ~ 0
+RC time circuit to meet ontime requirements
+$Comp
+L Device:R_Small R3
+U 1 1 5D306A2C
+P 1450 1050
+AR Path="/5C80AE96/5D306A2C" Ref="R3"  Part="1" 
+AR Path="/5C80AE96/5D2CB049/5D306A2C" Ref="R?"  Part="1" 
+F 0 "R3" V 1254 1050 50  0000 C CNN
+F 1 "51" V 1345 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1450 1050 50  0001 C CNN
+F 3 "~" H 1450 1050 50  0001 C CNN
+	1    1450 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1050 1800 1050
+Wire Wire Line
+	1250 1050 1350 1050
+Wire Wire Line
+	2000 1050 2550 1050
+Wire Wire Line
+	2550 950  2550 1050
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
 	6000 2200 6000 7600
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2750 1050
 $EndSCHEMATC
