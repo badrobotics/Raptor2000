@@ -394,21 +394,6 @@ F 3 "~" H 6300 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 900  5900 1050
-$Comp
-L Device:C_Small C410
-U 1 1 5D1335F6
-P 1650 1250
-F 0 "C410" H 1742 1296 50  0000 L CNN
-F 1 "0.1u" H 1742 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 1250 50  0001 C CNN
-F 3 "~" H 1650 1250 50  0001 C CNN
-	1    1650 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1050 1650 1050
-Wire Wire Line
-	1650 1050 1650 1150
 Text Label 2150 1050 0    50   ~ 0
 VBat_R
 $Comp
@@ -421,17 +406,6 @@ F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" H 6100 1100 50  0
 F 3 "~" H 6100 1100 50  0001 C CNN
 	1    6100 1100
 	0    1    -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0405
-U 1 1 5D116091
-P 1650 1500
-F 0 "#PWR0405" H 1650 1250 50  0001 C CNN
-F 1 "GND" H 1655 1327 50  0000 C CNN
-F 2 "" H 1650 1500 50  0001 C CNN
-F 3 "" H 1650 1500 50  0001 C CNN
-	1    1650 1500
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C406
@@ -1550,28 +1524,23 @@ Wire Wire Line
 Connection ~ 2600 2650
 Wire Wire Line
 	2450 2550 2450 2850
-Wire Wire Line
-	1650 1350 1650 1500
 $Comp
 L Device:R_Small R1
 U 1 1 5D4424D9
 P 1900 1050
 F 0 "R1" V 1704 1050 50  0000 C CNN
-F 1 "0" V 1795 1050 50  0000 C CNN
+F 1 "DNP" V 1795 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1900 1050 50  0001 C CNN
 F 3 "~" H 1900 1050 50  0001 C CNN
 	1    1900 1050
 	0    1    1    0   
 $EndComp
-Text Label 1600 1050 0    50   ~ 0
-VBat
-Connection ~ 1650 1050
 $Comp
 L Device:R_Small R2
 U 1 1 5D4934F5
 P 2550 850
 F 0 "R2" H 2491 804 50  0000 R CNN
-F 1 "DNP" H 2491 895 50  0000 R CNN
+F 1 "0" H 2491 895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2550 850 50  0001 C CNN
 F 3 "~" H 2550 850 50  0001 C CNN
 	1    2550 850 
@@ -1591,40 +1560,25 @@ $EndComp
 Wire Wire Line
 	2550 700  2550 750 
 $Sheet
-S 700  950  550  200 
+S 1150 950  550  200 
 U 5D2CB049
 F0 "V_Batt" 50
 F1 "v_batt.sch" 50
-F2 "Vout" I R 1250 1050 50 
+F2 "Vout" I R 1700 1050 50 
 $EndSheet
 Text Notes 550  800  0    50   ~ 0
 RC time circuit to meet ontime requirements
-$Comp
-L Device:R_Small R3
-U 1 1 5D306A2C
-P 1450 1050
-AR Path="/5C80AE96/5D306A2C" Ref="R3"  Part="1" 
-AR Path="/5C80AE96/5D2CB049/5D306A2C" Ref="R?"  Part="1" 
-F 0 "R3" V 1254 1050 50  0000 C CNN
-F 1 "51" V 1345 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1450 1050 50  0001 C CNN
-F 3 "~" H 1450 1050 50  0001 C CNN
-	1    1450 1050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1650 1050 1800 1050
-Wire Wire Line
-	1250 1050 1350 1050
+	1700 1050 1800 1050
 Wire Wire Line
 	2000 1050 2550 1050
 Wire Wire Line
 	2550 950  2550 1050
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2750 1050
 Wire Bus Line
 	1700 4850 1700 7600
 Wire Bus Line
 	6000 2200 6000 7600
-Connection ~ 2550 1050
-Wire Wire Line
-	2550 1050 2750 1050
 $EndSCHEMATC
