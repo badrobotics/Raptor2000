@@ -1,28 +1,28 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref
-1,"D502,D501,D407,D406,D405,D404,D403,D402,D401",LED_0805_2012Metric,9,LED,
-3,"R2,R201",R_0603_1608Metric,2,0,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603ZT0R00/RMCF0603ZT0R00CT-ND/1943218
-4,U401,TQFP-128_14x14mm_P0.4mm,1,TM4C1294NCPDTGOOD,https://www.digikey.com/product-detail/en/texas-instruments/TM4C1294NCPDTI3/296-38028-ND/4914951
-6,U1,TSOT-23-5,1,LT1761-3,https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1761ES5-3-TRPBF/LT1761ES5-3-TRPBFCT-ND/8124031
-7,C2,C_0603_1608Metric,1,10u,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A106KE69J/490-14372-1-ND/6606833
-8,C1,C_0603_1608Metric,1,0.01u,https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995
-9,"C413,C501,C415,C414,C409,C407,C406,C405,C403,C208,C207,C206,C205,C204,C203,C202,C201, C502",C_0603_1608Metric,17,0.1u,https://www.digikey.com/product-detail/en/taiyo-yuden/TMK107BJ104KA-T/587-1245-1-ND/931022
-10,Y402,Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm,1,Crystal,https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-A5/SER4103CT-ND/6188447
-11,Y401,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,Crystal_GND24,https://www.digikey.com/products/en?keywords=644-1259-1-ND
-12,U501,SSOP-28_5.3x10.2mm_P0.65mm,1,FT232RL,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
-13,U202,WSON-8-1EP_3.4x4.3mm_P1.27mm,1,TC58CVG2S0HRAIG,https://www.digikey.com/products/en?keywords=TC58CVG2S0HRAIG
-14,U201,TSOP-II-54_22.2x10.16mm_P0.8mm,1,IS42S16400J-xC,https://www.digikey.com/product-detail/en/issi-integrated-silicon-solution-inc/IS42S16400J-7TLI/706-1132-ND/2708624
-15,SW401,SW_SPST_B3S-1000,1,RST_SW,https://www.digikey.com/product-detail/en/c-k/PTS645SK43SMTR92-LFS/CKN9084CT-ND/1146821
-16,"R505,R203",R_0603_1608Metric,2,1M,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600
-17,"R504,R405,R205",R_0603_1608Metric,3,10k,https://www.digikey.com/product-detail/en/vishay-dale/RCG060310K0FKEA/541-1784-1-ND/4172543
-18,R503,R_0603_1608Metric,1,4.7k,https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732
-19,"R502,R501,R417,R416,R415,R414,R413,R408,R407",R_0603_1608Metric,9,330,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109
-20,"R412,R411,R410,R409",R_0603_1608Metric,4,49.9,https://www.digikey.com/product-detail/en/yageo/RC0603FR-0749R9L/311-49.9HRCT-ND/730211
-21,"R406,R402",R_0603_1608Metric,2,100,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835
-22,R404,R_0603_1608Metric,1,4.87k 1%,https://www.digikey.com/product-detail/en/vishay-dale/CRCW06034K87FKEA/541-4.87KHCT-ND/1179887
-23,R403,R_0603_1608Metric,1,2k,https://www.digikey.com/product-detail/en/vishay-dale/RCG06032K00FKEA/541-1782-1-ND/4172541
-24,J501,USB_Micro-B_Molex-105017-0001,1,USB_B_Micro,https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885
-25,J301,Conn_Samtec_ET60T-000-3-08-D-4-x-R1-S-x,1,ET60T-000-3-08-D04-x-R1-S-x,https://www.samtec.com/products/et60t
-27,C503,C_0603_1608Metric,1,3300pF,https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB332/311-1082-1-ND/302992
-29,"C416,C408",C_0603_1608Metric,2,2.2u,https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757
-30,"C412,C411,C402,C401",C_0603_1608Metric,4,12p,https://www.digikey.com/product-detail/en/avx-corporation/06031A120JAT4A/478-10188-1-ND/6797488
-31,C404,C_0603_1608Metric,1,1.0u,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-1-ND/3889188
+Id,Designator,Package,Quantity,Designation,link,Part Number
+1,"D502,D501,D407,D406,D405,D404,D403,D402,D401",LED_0805_2012Metric,9,LED,,
+3,"R2,R201",R_0603_1608Metric,2,0,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603ZT0R00/RMCF0603ZT0R00CT-ND/1943218,RMCF0603ZT0R00CT-ND
+4,U401,TQFP-128_14x14mm_P0.4mm,1,TM4C1294NCPDTGOOD,https://www.digikey.com/product-detail/en/texas-instruments/TM4C1294NCPDTI3/296-38028-ND/4914951,296-38028-ND
+6,U1,TSOT-23-5,1,LT1761-3,https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1761ES5-3-TRPBF/LT1761ES5-3-TRPBFCT-ND/8124031,LT1761ES5-3#TRPBFCT-ND
+7,C2,C_0603_1608Metric,1,10u,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A106KE69J/490-14372-1-ND/6606833,490-14372-1-ND
+8,C1,C_0603_1608Metric,1,0.01u,https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995,311-1085-1-ND
+9,"C413,C501,C415,C414,C409,C407,C406,C405,C403,C208,C207,C206,C205,C204,C203,C202,C201,C502",C_0603_1608Metric,18,0.1u,https://www.digikey.com/product-detail/en/taiyo-yuden/TMK107BJ104KA-T/587-1245-1-ND/931022,587-1245-1-ND
+10,Y402,Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm,1,Crystal,https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-A5/SER4103CT-ND/6188447,SER4103CT-ND
+11,Y401,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,Crystal_GND24,https://www.digikey.com/products/en?keywords=644-1259-1-ND,644-1259-1-ND
+12,U501,SSOP-28_5.3x10.2mm_P0.65mm,1,FT232RL,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402,768-1007-1-ND
+13,U202,WSON-8-1EP_3.4x4.3mm_P1.27mm,1,TC58CVG2S0HRAIG,https://www.digikey.com/products/en?keywords=TC58CVG2S0HRAIG,TC58CVG2S0HRAIG-ND
+14,U201,TSOP-II-54_22.2x10.16mm_P0.8mm,1,IS42S16400J-xC,https://www.digikey.com/product-detail/en/issi-integrated-silicon-solution-inc/IS42S16400J-7TLI/706-1132-ND/2708624,706-1132-ND
+15,SW401,SW_SPST_B3S-1000,1,RST_SW,https://www.digikey.com/product-detail/en/c-k/PTS645SK43SMTR92-LFS/CKN9084CT-ND/1146821,CKN9084CT-ND
+16,"R505,R203",R_0603_1608Metric,2,1M,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600,RMCF0805JT1M00CT-ND
+17,"R504,R405,R205",R_0603_1608Metric,3,10k,https://www.digikey.com/product-detail/en/vishay-dale/RCG060310K0FKEA/541-1784-1-ND/4172543,541-1784-1-ND
+18,R503,R_0603_1608Metric,1,4.7k,https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732,311-4.7KGRCT-ND
+19,"R502,R501,R417,R416,R415,R414,R413,R408,R407",R_0603_1608Metric,9,330,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109,311-330HRCT-ND
+20,"R412,R411,R410,R409",R_0603_1608Metric,4,49.9,https://www.digikey.com/product-detail/en/yageo/RC0603FR-0749R9L/311-49.9HRCT-ND/730211,311-49.9HRCT-ND
+21,"R406,R402",R_0603_1608Metric,2,100,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835,311-100HRCT-ND
+22,R404,R_0603_1608Metric,1,4.87k 1%,https://www.digikey.com/product-detail/en/vishay-dale/CRCW06034K87FKEA/541-4.87KHCT-ND/1179887,541-4.87KHCT-ND
+23,R403,R_0603_1608Metric,1,2k,https://www.digikey.com/product-detail/en/vishay-dale/RCG06032K00FKEA/541-1782-1-ND/4172541,541-1782-1-ND
+24,J501,USB_Micro-B_Molex-105017-0001,1,USB_B_Micro,https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885,WM1399CT-ND
+25,J301,Conn_Samtec_ET60T-000-3-08-D-4-x-R1-S-x,1,ET60T-000-3-08-D04-x-R1-S-x,https://www.samtec.com/products/et60t,
+27,C503,C_0603_1608Metric,1,3300pF,https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB332/311-1082-1-ND/302992,311-1082-1-ND
+29,"C416,C408",C_0603_1608Metric,2,2.2u,https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757,311-1451-1-ND
+30,"C412,C411,C402,C401",C_0603_1608Metric,4,12p,https://www.digikey.com/product-detail/en/avx-corporation/06031A120JAT4A/478-10188-1-ND/6797488,478-10188-1-ND
+31,C404,C_0603_1608Metric,1,1.0u,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-1-ND/3889188,1276-1102-1-ND
