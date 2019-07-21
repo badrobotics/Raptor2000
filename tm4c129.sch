@@ -1566,8 +1566,6 @@ F0 "V_Batt" 50
 F1 "v_batt.sch" 50
 F2 "Vout" I R 1700 1050 50 
 $EndSheet
-Text Notes 550  800  0    50   ~ 0
-RC time circuit to meet ontime requirements
 Wire Wire Line
 	1700 1050 1800 1050
 Wire Wire Line
