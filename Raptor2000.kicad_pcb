@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 1205)
     (zones 0)
     (modules 80)
@@ -3766,6 +3766,9 @@
     )
   )
 
+  (gr_text "Raptor2000-A\nBAD Robotics" (at 173.99 84.455 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 177.419 57.9755) (end 113.919 57.9755) (layer Edge.Cuts) (width 0.15) (tstamp 5D2C2052))
   (gr_line (start 177.419 134.1755) (end 177.419 57.9755) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 113.919 134.1755) (end 177.419 134.1755) (layer Edge.Cuts) (width 0.15))
