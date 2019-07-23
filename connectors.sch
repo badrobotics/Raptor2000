@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title "Exodus Connector"
-Date "2019-06-22"
+Title "Raptor2000"
+Date "2019-07-22"
 Rev "A"
 Comp "BAD Robotics"
 Comment1 ""
